@@ -5,69 +5,69 @@ import { TopicCard } from "@/components/topic-card";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Managing Your Policy",
+  title: "Manage an Existing Policy: Fast Answers",
   description:
-    "Already have a final expense or life insurance policy? Find help with claims, beneficiaries, missed payments, cash value, and more.",
-  openGraph: { title: "Managing Your Policy", description: "Already have a final expense or life insurance policy? Find help with claims, beneficiaries, missed payments, cash value, and more." },
+    "Already have a final expense or life insurance policy? Get fast, direct answers on claims, beneficiaries, missed payments, cash value, and more.",
+  openGraph: { title: "Manage an Existing Policy: Fast Answers", description: "Already have a final expense or life insurance policy? Get fast, direct answers on claims, beneficiaries, missed payments, cash value, and more." },
 
-  twitter: { title: "Managing Your Policy", description: "Already have a final expense or life insurance policy? Find help with claims, beneficiaries, missed payments, cash value, and more." },
+  twitter: { title: "Manage an Existing Policy: Fast Answers", description: "Already have a final expense or life insurance policy? Get fast, direct answers on claims, beneficiaries, missed payments, cash value, and more." },
 };
 
 const TOPICS: { href: string; title: string; description: string; image?: string }[] = [
   {
     href: "/managing-your-policy/borrow-from-policy",
-    title: "Borrowing against your policy",
-    description: "How a policy loan against cash value works, and what an unpaid loan does to the death benefit.",
+    title: "Borrow against your policy",
+    description: "Fast rundown of how a policy loan works against cash value, and what it costs you.",
     image: "/photos/planning-seniors-conversation.jpg",
   },
   {
     href: "/managing-your-policy/beneficiary-dies-before-you",
-    title: "If your beneficiary dies before you do",
-    description: "What happens to your policy, and why naming a backup beneficiary matters.",
+    title: "Beneficiary died before you",
+    description: "What happens next, and why a backup beneficiary saves you a headache later.",
   },
   {
     href: "/managing-your-policy/missed-premium-payment",
     title: "Missed a payment",
-    description: "Grace periods, lapses, and what to do if a payment slipped through the cracks.",
+    description: "Grace periods, lapses, and the quickest fix if a payment slipped.",
     image: "/photos/planning-senior-phone-call.jpg",
   },
   {
     href: "/managing-your-policy/how-to-file-a-claim",
-    title: "Filing a death benefit claim",
-    description: "The general steps a beneficiary takes to start and complete a claim.",
+    title: "File a death benefit claim",
+    description: "The exact steps to start and finish a claim, without the runaround.",
     image: "/photos/planning-hands-signing.jpg",
   },
   {
     href: "/managing-your-policy/how-long-a-claim-takes-to-pay",
-    title: "How long a claim takes to pay",
-    description: "The factors that actually speed up or slow down a claim payout.",
+    title: "How fast claims actually pay",
+    description: "What speeds a payout up, and what slows it down.",
   },
   {
     href: "/managing-your-policy/find-a-lost-policy",
-    title: "Finding a lost policy",
-    description: "Practical steps for tracking down a policy when you can't find the paperwork.",
+    title: "Find a lost policy",
+    description: "The fastest places to look when the paperwork's gone missing.",
     image: "/photos/planning-senior-laptop.jpg",
   },
   {
     href: "/managing-your-policy/contestability-period",
-    title: "The contestability period",
-    description: "Why carriers can review a claim more closely during a policy's first two years.",
+    title: "The contestability period, explained",
+    description: "Why the first two years get extra scrutiny from a carrier.",
   },
   {
     href: "/managing-your-policy/claim-denied",
-    title: "If a claim is denied",
-    description: "Common reasons claims get denied, and the options a beneficiary has next.",
+    title: "Claim denied? Here's what's next",
+    description: "The common reasons, and every option you have from here.",
   },
   {
     href: "/managing-your-policy/change-beneficiary",
-    title: "Changing your beneficiary",
-    description: "How to update who's listed on your policy, and when people typically do it.",
+    title: "Update your beneficiary",
+    description: "Quick form, no new underwriting — here's exactly how.",
     image: "/photos/planning-advisor-senior-documents.jpg",
   },
   {
     href: "/managing-your-policy/cancel-policy",
-    title: "Canceling a policy",
-    description: "What actually happens when you cancel, and what to check first.",
+    title: "Cancel a policy",
+    description: "What actually happens, and what to check before you do.",
   },
 ];
 
@@ -79,17 +79,16 @@ export default function ManagingYourPolicyPage() {
           <Link href="/" className="hover:text-harbor">Home</Link> / Managing Your Policy
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Managing a policy you already have
+          Manage an existing policy: fast answers
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          This section isn&apos;t about comparing new coverage — it&apos;s for people who already
-          have a final expense or life insurance policy and need help with something specific: a
-          missed payment, a claim, an outdated beneficiary, or a question about how the policy
-          actually works. Pick a topic below.
+          Not shopping — already covered? This section skips the sales pitch and gets straight to
+          it: a missed payment, a claim to file, a beneficiary to update, or a quick question
+          about how your policy actually works. Find your topic and get your answer fast.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          What you can do here
+          Quick links
         </h2>
         <div className="mt-6 grid gap-5 sm:grid-cols-2">
           {TOPICS.map((topic) => (
@@ -98,14 +97,13 @@ export default function ManagingYourPolicyPage() {
         </div>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Still comparing coverage?
+          Still comparing coverage instead?
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          If you don&apos;t have a policy yet and you&apos;re trying to compare options, this
-          isn&apos;t the right section — head back to the homepage to compare fast, or, if a
-          health condition is part of what you&apos;re weighing, see our{" "}
+          Wrong section if you don't have a policy yet — head back to the homepage to compare
+          options fast, or, if a health condition is part of your decision, check our{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
-            guide to pre-existing conditions
+            pre-existing conditions guide
           </Link>{" "}
           first.
         </p>
@@ -115,9 +113,9 @@ export default function ManagingYourPolicyPage() {
             Call {siteConfig.supportPhoneDisplay}
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
-            Don&apos;t have a policy yet?{" "}
+            No policy yet?{" "}
             <Link href="/get-quote" className="font-semibold text-harbor-mid hover:underline">
-              Compare my options →
+              See what you qualify for →
             </Link>
           </p>
         </div>

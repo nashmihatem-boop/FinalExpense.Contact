@@ -12,8 +12,8 @@ export async function generateMetadata(props: PageProps<"/pre-existing-condition
   const { medication: slug } = await props.params;
   const medication = findMedication(slug);
   if (!medication) return {};
-  const title = `${medication.name} and Final Expense Insurance`;
-  const description = `How a ${medication.name.toLowerCase()} prescription is typically viewed when comparing final expense insurance quotes.`;
+  const title = `${medication.name}: Final Expense Insurance Fast Facts`;
+  const description = `Fast facts on how a ${medication.name.toLowerCase()} prescription is typically viewed in a final expense insurance application.`;
   return {
     title,
     description,
@@ -36,25 +36,25 @@ export default async function MedicationPage(props: PageProps<"/pre-existing-con
           <Link href="/pre-existing-conditions/prescriptions" className="hover:text-harbor">Prescription History</Link> / {medication.name}
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          {medication.name} and final expense insurance
+          {medication.name}: final expense insurance fast facts
         </h1>
         <p className="mt-2 text-sm text-charcoal/50">{medication.examples}</p>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">{medication.summary}</p>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">{medication.detail}</p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Keep in mind</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Fine print</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Carriers set their own rules for how they view any given prescription, so the same
-            medication can be treated differently from one company to the next. Always answer
-            health and medication questions accurately — the carrier checks your prescription
-            history regardless, and a mismatch can affect your family&apos;s claim later.
+            No industry-wide standard here — one carrier's yellow flag is another's non-issue.
+            Doesn't change the play either way: disclose fully, every time. Verification happens
+            in the background whether you mention it or not, and getting caught in a gap later is
+            what actually costs a payout.
           </p>
         </div>
 
         <div className="mt-10 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
         </div>
 
@@ -72,7 +72,7 @@ export default async function MedicationPage(props: PageProps<"/pre-existing-con
         </ul>
         <p className="mt-6 text-sm text-charcoal/60">
           <Link href="/pre-existing-conditions" className="font-semibold text-harbor-mid hover:underline">
-            ← Back to the full guide
+            ← Full guide
           </Link>
         </p>
       </div>

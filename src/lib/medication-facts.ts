@@ -11,33 +11,33 @@ export const MEDICATIONS: MedicationFact[] = [
     slug: "anti-seizure-medication",
     name: "Anti-Seizure Medication",
     examples: "e.g., Keppra, Dilantin, Lamictal",
-    summary: "Usually read as a marker for epilepsy or a seizure history rather than a concern on its own.",
+    summary: "Read mainly as a flag for epilepsy or a seizure history — not a concern in its own right.",
     detail:
-      "Carriers care less about the medication itself and more about what it tells them: how long you've been seizure-free, and whether the seizures are controlled. A long stretch without a seizure while on a stable dose commonly clears for level coverage. A recent seizure, or a recent change in medication, is more likely to prompt extra questions or a graded outcome.",
+      "The drug itself isn't really what carriers are after. What they want to know: your seizure-free stretch, and whether things are controlled. A long gap since the last seizure on a stable dose commonly clears for level coverage. A seizure recently, or a dosage change recently, and expect more questions or a graded result instead.",
   },
   {
     slug: "antidepressants",
     name: "Antidepressants",
     examples: "e.g., Zoloft, Lexapro, Wellbutrin",
-    summary: "One of the most common prescriptions carriers see, and rarely a barrier by itself.",
+    summary: "About as common a prescription as carriers see — rarely a barrier on its own.",
     detail:
-      "Depression and anxiety are extremely common, and most carriers treat a stable antidepressant prescription as routine rather than a red flag. What tends to matter more is stability — how long you've been on the medication, whether there have been recent dosage changes, and whether there's a history of hospitalization. A well-managed, long-standing prescription is usually a non-issue.",
+      "Depression and anxiety show up constantly in these files, and most carriers treat a stable prescription as routine, not a warning sign. Stability is what actually carries weight: time on the medication, any recent dosage changes, any history of hospitalization. Long-standing and well-managed, and it's usually a non-issue.",
   },
   {
     slug: "blood-thinners",
     name: "Blood Thinners",
     examples: "e.g., Eliquis, Xarelto, Warfarin",
-    summary: "The reason you're prescribed one matters more than the medication itself.",
+    summary: "What it's prescribed for counts for more than the prescription itself.",
     detail:
-      "Blood thinners are prescribed for a wide range of reasons — AFib, a past blood clot, a mechanical heart valve — and carriers look past the prescription to the underlying condition. A blood thinner tied to a well-managed condition like AFib is often fine at level rates; one tied to a more serious recent cardiac event may point toward a graded outcome instead.",
+      "AFib, a past clot, a mechanical heart valve — reasons for being on a blood thinner run wide, and carriers look straight past the drug to whatever condition sits underneath it. Tied to something well-managed like AFib, and level rates are often still in play; tied to a serious, recent cardiac event, and a graded outcome becomes more likely instead.",
   },
   {
     slug: "opioid-pain-medication",
     name: "Opioid Pain Medication",
     examples: "e.g., Oxycodone, Hydrocodone, Tramadol",
-    summary: "The most scrutinized medication category, since carriers are specifically checking for signs of dependency.",
+    summary: "The category carriers scrutinize hardest — they're specifically screening for dependency.",
     detail:
-      "Occasional or short-term use tied to a specific event — a past surgery, for example — is treated very differently from an ongoing, long-term prescription. Carriers are mainly trying to rule out substance dependency and the more serious chronic pain conditions opioids are sometimes prescribed for. A long-standing, stable prescription for a known condition fares better than a recent or open-ended one.",
+      "Short-term use tied to one event — recovering from surgery, say — reads nothing like an open-ended, ongoing prescription. What carriers are really screening for: substance dependency, and the more serious chronic-pain conditions that sometimes sit behind an opioid prescription. Stable and long-standing for a known condition beats recent or indefinite, every time.",
   },
 ];
 

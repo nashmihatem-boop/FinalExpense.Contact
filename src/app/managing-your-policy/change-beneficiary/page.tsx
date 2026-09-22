@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "How to Change Your Life Insurance Beneficiary",
+  title: "Change Your Beneficiary in Minutes",
   description:
-    "How updating a policy's beneficiary works, and the common life events that lead people to do it.",
-  openGraph: { title: "How to Change Your Life Insurance Beneficiary", description: "How updating a policy's beneficiary works, and the common life events that lead people to do it." },
+    "A fast, no-nonsense guide to updating your policy's beneficiary, and the common triggers that mean it's time to check yours.",
+  openGraph: { title: "Change Your Beneficiary in Minutes", description: "A fast, no-nonsense guide to updating your policy's beneficiary, and the common triggers that mean it's time to check yours." },
 
-  twitter: { title: "How to Change Your Life Insurance Beneficiary", description: "How updating a policy's beneficiary works, and the common life events that lead people to do it." },
+  twitter: { title: "Change Your Beneficiary in Minutes", description: "A fast, no-nonsense guide to updating your policy's beneficiary, and the common triggers that mean it's time to check yours." },
 };
 
 export default function ChangeBeneficiaryPage() {
@@ -20,64 +20,59 @@ export default function ChangeBeneficiaryPage() {
           <Link href="/managing-your-policy" className="hover:text-harbor">Managing Your Policy</Link> / Change Your Beneficiary
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How to change your policy&apos;s beneficiary
+          Change your beneficiary in minutes
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Updating a beneficiary is simpler than most people expect — it doesn&apos;t touch your
-          coverage, your premium, or any other part of the policy. It&apos;s just a matter of
-          telling your carrier who you actually want listed.
+          Faster than most people assume, and it doesn't touch your coverage, premium, or any
+          other policy terms. Just tell your carrier who should actually be listed — that's it.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          It&apos;s a form, not a new policy
+          One form, not a new application
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Changing a beneficiary is normally handled with a beneficiary-change form, submitted on
-          paper or through your carrier&apos;s online portal if they offer one. Once it&apos;s
-          processed, everything else about your policy — coverage amount, premium, terms — stays
-          exactly the same. There&apos;s no need to reapply or go through underwriting again.
+          A short beneficiary-change form does it — paper or your carrier's online portal, if
+          they've got one. Once processed, everything else about the policy stays put: coverage,
+          premium, terms. No reapplying, no new underwriting.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Primary vs. contingent beneficiaries
+          Primary vs. contingent, quickly
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Your primary beneficiary is who receives the death benefit first. A contingent
-          beneficiary is the backup, who receives it only if the primary beneficiary has already
-          died. If you&apos;re updating one, it&apos;s worth reviewing both at the same time — see{" "}
+          Primary gets the benefit first. Contingent is the backup, kicking in only if the primary
+          is already gone. Updating one? Check both at once — see{" "}
           <Link href="/managing-your-policy/beneficiary-dies-before-you" className="text-harbor-mid underline">
             what happens if a beneficiary dies before you do
           </Link>{" "}
-          for why the contingent choice matters.
+          for why the contingent slot matters.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Common reasons people update it
+          Fast triggers to update it
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Divorce or remarriage, the death of the person currently listed, the arrival of a new
-          child or grandchild, or simply a change in who you want to receive the benefit are the
-          most common triggers. Some people also update it years after originally naming a parent
-          who has since passed away, shifting the benefit to a spouse or child instead.
+          Divorce, remarriage, the death of whoever's currently listed, a new child or
+          grandchild, or just changing your mind — these cover most updates. Some people also fix
+          it years later after naming a now-deceased parent, shifting the benefit to a spouse or
+          child instead.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">A note on ex-spouses</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Ex-spouse note</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Some states have laws that automatically revoke an ex-spouse&apos;s beneficiary status
-            after a divorce, but this varies and isn&apos;t something to rely on. If you want an
-            ex-spouse removed — or, in some cases, intentionally kept — submitting a
-            beneficiary-change form yourself is the reliable way to make sure the policy actually
-            reflects your wishes.
+            Some states auto-revoke an ex-spouse's beneficiary status after divorce — but rules
+            vary, so don't rely on it alone. Want them removed, or intentionally kept? File the
+            beneficiary-change form yourself to be sure.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How often to review it
+          How often to check
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          There&apos;s no fixed schedule. Tying a review to major life events, or simply checking
-          every few years, is a reasonable habit that only takes a few minutes with your carrier.
+          No fixed schedule — tie it to major life events, or just check every few years. Takes
+          minutes with your carrier either way.
         </p>
 
         <div className="mt-14 text-center">

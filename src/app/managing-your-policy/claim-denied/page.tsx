@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "What to Do If a Life Insurance Claim Is Denied",
+  title: "Claim Denied? Your Fast Next Steps",
   description:
-    "Common reasons a death benefit claim gets denied, and the options a beneficiary has, from appeal to a state complaint.",
-  openGraph: { title: "What to Do If a Life Insurance Claim Is Denied", description: "Common reasons a death benefit claim gets denied, and the options a beneficiary has, from appeal to a state complaint." },
+    "A fast breakdown of why a death benefit claim gets denied, and every option you have next — appeal, state complaint, or attorney.",
+  openGraph: { title: "Claim Denied? Your Fast Next Steps", description: "A fast breakdown of why a death benefit claim gets denied, and every option you have next — appeal, state complaint, or attorney." },
 
-  twitter: { title: "What to Do If a Life Insurance Claim Is Denied", description: "Common reasons a death benefit claim gets denied, and the options a beneficiary has, from appeal to a state complaint." },
+  twitter: { title: "Claim Denied? Your Fast Next Steps", description: "A fast breakdown of why a death benefit claim gets denied, and every option you have next — appeal, state complaint, or attorney." },
 };
 
 export default function ClaimDeniedPage() {
@@ -20,80 +20,71 @@ export default function ClaimDeniedPage() {
           <Link href="/managing-your-policy" className="hover:text-harbor">Managing Your Policy</Link> / If a Claim Is Denied
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What to do if a claim is denied
+          Claim denied? Your fast next steps
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          A denial is stressful, especially on top of everything else, but it isn&apos;t
-          necessarily the final word. Here are the reasons it typically happens, and the concrete
-          options a beneficiary has from there.
+          Stressful, no question — but not necessarily final. Here's why denials happen, fast, and
+          exactly what to do next.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Common reasons a claim gets denied
+          Why denials happen
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A few patterns account for most denials. Misrepresentation on the original application —
-          a health condition or other material fact that wasn&apos;t disclosed accurately — is
-          one, and it&apos;s typically only raised within the policy&apos;s{" "}
+          Four patterns cover most cases. Misrepresentation on the application — an inaccurate
+          health disclosure — usually only comes up during the{" "}
           <Link href="/managing-your-policy/contestability-period" className="text-harbor-mid underline">
             contestability period
           </Link>
-          . A lapsed policy is another — if premiums stopped and the{" "}
+          . A lapsed policy is another — missed payments past the{" "}
           <Link href="/managing-your-policy/missed-premium-payment" className="text-harbor-mid underline">
             grace period
           </Link>{" "}
-          passed without payment or reinstatement, coverage may no longer have been active at the
-          time of death. A death from a non-accidental cause during a guaranteed-acceptance
-          waiting period is a third pattern — though this usually results in a reduced, modified
-          payout rather than a full denial, since that&apos;s how those policies are structured.
-          Less commonly, a denial can stem from a specific cause of death the policy excludes
-          outright.
+          without reinstatement means coverage may not have been active at death. A natural-cause
+          death during a guaranteed-acceptance waiting period usually means a reduced payout, not
+          a full denial — that's how those policies work. Rarely, it's a specifically excluded
+          cause of death.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Start by getting the reason in writing
+          Step 1: get the reason in writing
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Carriers are generally expected to provide a specific written reason for denying a
-          claim. If you only received a phone call or a vague explanation, request the denial in
-          writing — the exact stated reason is what determines your best next step.
+          Carriers should give a specific written reason. Got a phone call or vague explanation
+          instead? Request it in writing — the exact reason determines your fastest next move.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          You can appeal
+          Step 2: appeal
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Most carriers have an internal appeals process. If you have documentation that directly
-          addresses their stated reason — medical records that clarify a diagnosis timeline, for
-          example, or proof a payment was actually received — submitting it as part of a formal
-          appeal is the first and most direct option.
+          Most carriers run an internal appeals process. Have documentation addressing their
+          stated reason directly — medical records clarifying a timeline, proof a payment went
+          through? Submit it as a formal appeal first.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Involve your state insurance department
+          Step 3: your state insurance department
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Every state has an insurance regulator that handles consumer complaints about claim
-          handling. They can look into whether the denial followed proper procedure and, in some
-          cases, help push for a resolution. Filing a complaint is typically free.
+          Every state has a regulator built to handle exactly this. They can check whether the
+          denial followed proper process and push toward resolution. Filing is free.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Consult an attorney for larger disputes
+          Step 4: an attorney, for bigger disputes
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          For a significant benefit amount, or a denial that seems to conflict with what the
-          policy actually says, an attorney who handles insurance disputes can review the policy
-          language and denial letter and advise on whether it&apos;s worth formally contesting.
-          Many offer a free initial consultation, so it costs nothing to ask.
+          Large benefit amount, or a denial that contradicts the actual policy language? An
+          insurance-dispute attorney can review both and advise fast on whether to contest
+          further. Many offer a free first consultation.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Keep everything organized</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Keep it organized</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            The original application, the policy itself, the denial letter, and every piece of
-            correspondence with the carrier all strengthen an appeal. Keep dated copies of
-            everything, including notes from phone calls.
+            Original application, the policy, the denial letter, every piece of correspondence —
+            all strengthen an appeal. Keep dated copies of everything, phone notes included.
           </p>
         </div>
 

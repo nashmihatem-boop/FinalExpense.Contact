@@ -3,15 +3,15 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "No Waiting Period Final Expense Insurance",
-  description: "How to qualify for day-one final expense coverage with no waiting period, even with a health condition — and how to compare your odds fast.",
+  title: "No Waiting Period: Day-One Coverage Fast Facts",
+  description: "Fast facts on qualifying for day-one final expense coverage with no waiting period, even with a health condition.",
   openGraph: {
-    title: "No Waiting Period Final Expense Insurance",
-    description: "How to qualify for day-one final expense coverage with no waiting period, even with a health condition — and how to compare your odds fast.",
+    title: "No Waiting Period: Day-One Coverage Fast Facts",
+    description: "Fast facts on qualifying for day-one final expense coverage with no waiting period, even with a health condition.",
   },
   twitter: {
-    title: "No Waiting Period Final Expense Insurance",
-    description: "How to qualify for day-one final expense coverage with no waiting period, even with a health condition — and how to compare your odds fast.",
+    title: "No Waiting Period: Day-One Coverage Fast Facts",
+    description: "Fast facts on qualifying for day-one final expense coverage with no waiting period, even with a health condition.",
   },
 };
 
@@ -23,67 +23,60 @@ export default function NoWaitingPeriodPage() {
           <Link href="/pre-existing-conditions" className="hover:text-harbor">Pre-Existing Conditions</Link> / No Waiting Period Coverage
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Getting day-one coverage with no waiting period
+          No waiting period: day-one coverage fast facts
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          A policy with no waiting period means your family receives the full death benefit from
-          the day your first payment is processed — for any covered cause of death. It&apos;s
-          the outcome most people want, and for a lot of applicants with a health condition,
-          it&apos;s genuinely reachable — comparing carriers is the fastest way to confirm it.
+          No waiting period means the full death benefit is active from the day your first
+          payment clears — any covered cause of death. It's the outcome everyone wants, and for
+          plenty of applicants with a health condition, it's realistic.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Who typically qualifies
+          Who typically gets it
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Day-one, no-wait coverage (what carriers call a &quot;level&quot; outcome) comes through
-          simplified-issue underwriting — the path with health questions but no medical exam. The
-          key factor isn&apos;t whether you have a diagnosis on paper; it&apos;s whether the
-          condition is stable, controlled, and being actively managed. Well-controlled high blood
-          pressure, treated high cholesterol, stable type 2 diabetes, and sleep apnea managed with
-          a CPAP machine are all common examples of conditions that regularly still land at level.
+          Day-one, no-wait coverage (a "level" outcome) runs through simplified-issue underwriting
+          — health questions, no exam. Key factor: not whether a diagnosis exists, but whether
+          it's stable, controlled, actively managed. Well-controlled blood pressure, treated
+          cholesterol, stable type 2 diabetes, CPAP-managed sleep apnea — all regularly still land
+          at level.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
           What usually rules it out
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          More serious or recent health events — a heart attack or stroke in the last year or two,
-          an active cancer treatment, or a progressive condition like COPD requiring oxygen — tend
-          to push an application toward a graded or modified outcome instead, which phases in the
-          full benefit over the first couple of years rather than paying it immediately. That
-          isn&apos;t a dead end; it&apos;s simply a different, still-real form of coverage. See
-          our{" "}
+          Serious or recent events — heart attack or stroke in the last year or two, active cancer
+          treatment, progressive COPD requiring oxygen — push toward graded or modified instead:
+          full benefit phases in over the first couple years rather than paying immediately. Not a
+          dead end, just a different real form of coverage. Full breakdown:{" "}
           <Link href="/pre-existing-conditions#tiers" className="text-harbor-mid underline">
-            guide to how carriers tier applicants
-          </Link>{" "}
-          for the full breakdown.
+            how carriers tier applicants
+          </Link>
+          .
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          One important distinction
+          Key distinction
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Don&apos;t confuse &quot;no waiting period&quot; with &quot;no health questions.&quot;
-          Guaranteed-acceptance policies skip health questions entirely, but they always carry a
-          two-year waiting period for natural-cause death in exchange. A policy that claims both
-          no health questions and no waiting period at once doesn&apos;t exist in this market —
-          treat that combination as a red flag.
+          "No waiting period" ≠ "no health questions." Guaranteed-acceptance skips health
+          questions entirely but always carries a 2-year wait for natural-cause death. Both
+          together, no wait? Doesn't exist — treat that pitch as a red flag.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How to find out where you&apos;d land, fast
+          Finding your real outcome
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Since every carrier sets its own rules for what qualifies as &quot;stable&quot; or
-          &quot;controlled,&quot; the most reliable way to know your actual outcome is to compare
-          your specific health history against multiple carriers at once with a licensed agent,
-          rather than guessing or applying to just one and waiting to find out.
+          Every carrier defines "stable" or "controlled" differently. Fastest way to know your
+          actual outcome: talk to a licensed agent who checks your history against multiple
+          carriers at once, instead of guessing or applying to just one.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/pre-existing-conditions" className="font-semibold text-harbor-mid hover:underline">

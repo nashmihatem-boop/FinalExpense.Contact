@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Burial vs. Cremation: A Balanced Comparison",
+  title: "Burial vs. Cremation: Compare Cost, Fast",
   description:
-    "How cost, religious and cultural considerations, and environmental factors compare between burial and cremation — and why final expense coverage works the same either way.",
-  openGraph: { title: "Burial vs. Cremation: A Balanced Comparison", description: "How cost, religious and cultural considerations, and environmental factors compare between burial and cremation — and why final expense coverage works the same either way." },
+    "A fast, side-by-side comparison of burial and cremation on cost, faith considerations, and environmental impact — plus why your coverage works the same either way.",
+  openGraph: { title: "Burial vs. Cremation: Compare Cost, Fast", description: "A fast, side-by-side comparison of burial and cremation on cost, faith considerations, and environmental impact — plus why your coverage works the same either way." },
 
-  twitter: { title: "Burial vs. Cremation: A Balanced Comparison", description: "How cost, religious and cultural considerations, and environmental factors compare between burial and cremation — and why final expense coverage works the same either way." },
+  twitter: { title: "Burial vs. Cremation: Compare Cost, Fast", description: "A fast, side-by-side comparison of burial and cremation on cost, faith considerations, and environmental impact — plus why your coverage works the same either way." },
 };
 
 export default function BurialVsCremationPage() {
@@ -19,88 +19,74 @@ export default function BurialVsCremationPage() {
           <Link href="/funeral-cost" className="hover:text-harbor">Funeral Cost</Link> / Burial vs. Cremation
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Burial vs. cremation: comparing the choice
+          Burial vs. cremation: compare cost, fast
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          There&apos;s no universally right answer between burial and cremation — the right
-          choice depends on cost priorities, faith, family tradition, and personal preference, and
-          reasonable families land in different places. Here&apos;s a fast, balanced comparison of
-          how they actually stack up, and one thing that doesn&apos;t change no matter which you
-          choose: how your coverage works.
+          No universal right answer — depends on cost priorities, faith, tradition, and
+          preference, and reasonable people land differently. Fast comparison of how they actually
+          differ, plus one thing that never changes: how coverage works.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Cost tendency
+          Cost comparison
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          As a general tendency, cremation costs less than burial, mainly because it removes
-          several line items rather than because any single component is dramatically cheaper.
-          Burial typically involves a burial plot, opening and closing the grave, and often a
-          burial vault or liner required by the cemetery, on top of a casket — costs that
-          don&apos;t apply to cremation at all. That said, &quot;cremation is cheaper&quot;
-          isn&apos;t a rule without exceptions: a{" "}
+          Generally, cremation costs less — mainly by removing line items, not because any one
+          piece is dramatically cheaper. Burial typically adds a plot, opening/closing, and often
+          a required vault, on top of a casket. None apply to cremation. Exception worth knowing:
+          a{" "}
           <Link href="/funeral-cost/cremation-cost" className="font-semibold text-harbor-mid hover:underline">
-            cremation paired with an elaborate service
+            cremation with an elaborate service
           </Link>{" "}
-          and a high-end urn can cost more than a simple, no-frills burial. The category you
-          choose matters less than the specific choices you make within it, which is exactly why
-          a real, itemized quote from a local provider matters more than any general comparison —
-          including this one.
+          plus a premium urn can cost more than a simple burial. The category matters less than
+          the specific choices within it — get a real itemized quote, don't rely on general
+          comparisons, including this one.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Religious and cultural considerations
+          Faith and tradition
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          For many families, this question isn&apos;t primarily financial. Faith and cultural
-          background often carry specific expectations: some traditions call for burial
-          specifically, some have historically discouraged cremation while increasingly accepting
-          it, and others have particular timing or ritual requirements around either option. This
-          is genuinely personal territory, and general information only goes so far. If faith or
-          family tradition plays a significant role in this decision, your clergy or faith
-          community is the right first conversation, alongside a local provider experienced in
-          serving that tradition, who can help make sure arrangements are handled correctly and
-          respectfully.
+          For many, this isn't primarily financial. Faith and culture often carry real
+          expectations: some traditions require burial, some historically discouraged cremation
+          while now accepting it, others have specific timing rules. Genuinely personal territory
+          — if this matters to you, talk to clergy or your faith community first, alongside a
+          provider experienced in that tradition.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Environmental considerations
+          Environmental factor
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Some families factor environmental impact into the decision alongside cost and
-          tradition. Burial involves land use and, depending on the choices made, materials like
-          metal, hardwood, and concrete. Cremation avoids land use but involves energy use in the
-          process itself. Neither option is impact-free, and there&apos;s growing interest in
-          simpler approaches on both sides, including more minimal burial where cemeteries allow
-          it, for families who want to weigh this factor more heavily.
+          Some weigh this alongside cost and tradition. Burial uses land and materials like metal,
+          hardwood, concrete. Cremation skips land use but uses energy in the process. Neither's
+          impact-free — growing interest in simpler options on both sides, including minimal
+          burial where allowed, for those who want to prioritize this.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold text-harbor">One thing that doesn&apos;t change</p>
+          <p className="text-sm font-bold text-harbor">What never changes</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Final expense insurance pays a cash death benefit to whoever you name as beneficiary —
-            it isn&apos;t tied to a specific funeral package or disposition method. That means the
-            choice between burial and cremation doesn&apos;t require a different kind of policy,
-            and it doesn&apos;t lock your family into a decision made years earlier. Whoever
-            manages the arrangements decides how to use the funds when the time comes.
+            Final expense insurance pays cash to your named beneficiary — not tied to a specific
+            funeral package or method. Burial vs. cremation never needs a different policy type,
+            and never locks your family into a decision made years earlier. Whoever handles
+            arrangements decides how to use the funds.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Making the choice — and covering it
+          Decide, then cover it either way
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          If you&apos;re still weighing burial against cremation, that&apos;s a decision worth
-          taking time with, ideally talking it through with family and, if it applies, with
-          clergy or a faith community. What doesn&apos;t need to wait is comparing coverage. Since
-          the benefit pays out as cash rather than a predetermined service package, you don&apos;t
-          need a final answer today to make sure your family has what it needs when the time
-          comes.
+          Still deciding between burial and cremation? Take real time — talk it through with
+          family, and clergy if relevant. What shouldn't wait: getting coverage in place. Since the
+          benefit pays as cash, not a fixed package, you don't need today's final answer to make
+          sure your family has what it needs later.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/funeral-cost" className="font-semibold text-harbor-mid hover:underline">

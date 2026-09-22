@@ -3,35 +3,35 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Level vs. Graded vs. Modified Life Insurance",
+  title: "Level vs. Graded vs. Modified: Fast Comparison",
   description:
-    "A fast, side-by-side comparison of the three ways a final expense death benefit can be structured, plus what happens when none of them fit.",
-  openGraph: { title: "Level vs. Graded vs. Modified Life Insurance", description: "A fast, side-by-side comparison of the three ways a final expense death benefit can be structured, plus what happens when none of them fit." },
+    "Fast, side-by-side comparison of the three ways a final expense death benefit gets structured, plus the fourth path when none of them fit.",
+  openGraph: { title: "Level vs. Graded vs. Modified: Fast Comparison", description: "Fast, side-by-side comparison of the three ways a final expense death benefit gets structured, plus the fourth path when none of them fit." },
 
-  twitter: { title: "Level vs. Graded vs. Modified Life Insurance", description: "A fast, side-by-side comparison of the three ways a final expense death benefit can be structured, plus what happens when none of them fit." },
+  twitter: { title: "Level vs. Graded vs. Modified: Fast Comparison", description: "Fast, side-by-side comparison of the three ways a final expense death benefit gets structured, plus the fourth path when none of them fit." },
 };
 
 const OUTCOMES = [
   {
     slug: "level-benefit",
     name: "Level",
-    duringWindow: "No waiting window — 100% of the benefit applies from day one",
-    after: "No change. It's already full.",
-    summary: "The full death benefit, in place immediately, at the lowest cost of the three.",
+    duringWindow: "No wait — 100% from day one",
+    after: "No change, already full",
+    summary: "Full death benefit, immediate, cheapest of the three.",
   },
   {
     slug: "graded-benefit",
     name: "Graded",
-    duringWindow: "A partial benefit that increases every year",
+    duringWindow: "Partial benefit, increases yearly",
     after: "100% of the benefit",
-    summary: "A real, growing payout from day one that reaches full value on a schedule.",
+    summary: "Real, growing payout from day one, hits full value on schedule.",
   },
   {
     slug: "modified-benefit",
     name: "Modified",
-    duringWindow: "Premiums paid back, plus interest — not a death benefit",
+    duringWindow: "Premiums back plus interest — not a death benefit",
     after: "100% of the benefit",
-    summary: "Your premiums returned with interest during the window, then full coverage after.",
+    summary: "Premiums refunded with interest during the window, full coverage after.",
   },
 ];
 
@@ -43,32 +43,29 @@ export default function LevelVsGradedVsModifiedPage() {
           Level vs. Graded vs. Modified
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Level vs. graded vs. modified: comparing the three payout structures
+          Level vs. graded vs. modified: 3 ways your payout gets structured
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          When you apply for final expense coverage, the health questions on your application
-          sort you into one of a small number of outcomes — and that outcome decides when your
-          family actually receives the full death benefit. Here&apos;s a fast side-by-side of the
-          three main outcomes, plus the fourth path that exists for health histories none of them
-          fit.
+          Health questions on your application sort you into one of a few outcomes — and that
+          outcome decides exactly when the full death benefit kicks in. Fast side-by-side of the 3
+          main outcomes, plus the 4th path for histories none of them fit.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
           The three outcomes, side by side
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Every simplified-issue policy — meaning no medical exam, just health questions — is
-          structured one of these three ways. The difference only matters if death occurs from
-          natural causes during a carrier-set initial window, commonly the first two years of the
-          policy; after that window, all three pay the exact same thing.
+          Every simplified-issue policy (no exam, just health questions) is structured one of
+          these three ways. Difference only matters for natural-cause death during a carrier-set
+          window — commonly the first two years. After that: all three pay identically.
         </p>
         <div className="mt-6 overflow-x-auto rounded-2xl border border-mist">
           <table className="w-full min-w-[560px] border-collapse text-left">
             <thead>
               <tr className="border-b border-mist bg-canvas-alt">
                 <th className="px-5 py-3.5 text-sm font-semibold text-charcoal/60">Outcome</th>
-                <th className="px-5 py-3.5 font-display text-sm font-extrabold text-harbor">During the window, natural death</th>
-                <th className="px-5 py-3.5 font-display text-sm font-extrabold text-charcoal/60">After the window</th>
+                <th className="px-5 py-3.5 font-display text-sm font-extrabold text-harbor">During window, natural death</th>
+                <th className="px-5 py-3.5 font-display text-sm font-extrabold text-charcoal/60">After window</th>
               </tr>
             </thead>
             <tbody>
@@ -88,72 +85,63 @@ export default function LevelVsGradedVsModifiedPage() {
         </div>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold text-harbor">One thing all three share</p>
+          <p className="text-sm font-bold text-harbor">Shared across all three</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            For a death by accident, the full benefit is generally paid immediately under any of
-            the three outcomes, no matter how new the policy is. The waiting window only ever
-            applies to death from natural causes — it isn&apos;t a delay on the policy as a
-            whole.
+            Accidental death: paid in full, immediately, regardless of policy age, under any of
+            the three. The waiting window applies only to natural-cause death — never the whole
+            policy.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What decides which one you get
+          What decides your outcome
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Underwriters are mainly weighing two things: how stable and well-managed your health is
-          right now, and how recent or severe anything more serious in your history is. A
-          condition that&apos;s controlled, treated, and hasn&apos;t required a recent
-          hospitalization tends to move toward level. Something more recent, or still being
-          stabilized, tends to move toward graded or modified. On top of that, every carrier sets
-          its own health questions and its own look-back period for how far back it asks about a
-          diagnosis — so the same person can land in a different tier depending entirely on which
-          carrier reviews the application, which is exactly why comparing more than one carrier
-          matters here.
+          Two factors: how stable/managed your health is now, and how recent/severe anything more
+          complex in your history is. Controlled, treated, no recent hospitalization → level.
+          Recent or still stabilizing → graded or modified. Add to that: every carrier sets its own
+          questions and look-back window — same person, different carrier, different tier.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The fourth outcome: when none of the three fit
+          The 4th outcome: when none fit
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Some health histories fall outside what a given carrier is willing to offer through
-          simplified issue at all — that&apos;s a decline, and it&apos;s specific to that one
-          carrier, not a verdict on your eligibility everywhere. Guaranteed acceptance exists
-          specifically as the backstop for this situation: it skips health questions entirely and
-          takes applicants within the eligible age range regardless of health history, in exchange
-          for a two-year waiting period on natural-cause death. It&apos;s a different track from
-          the three outcomes above, and it&apos;s covered in full in{" "}
+          Some histories fall outside what a given carrier offers via simplified issue at all —
+          that's a decline, specific to that one carrier, not a universal verdict. Guaranteed
+          acceptance is the backstop: skips health questions, takes any eligible age, 2-year wait
+          on natural-cause death. Separate track — full details in{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
-            the full pre-existing conditions guide
+            the pre-existing conditions guide
           </Link>
           .
         </p>
 
         <div className="mt-14 rounded-2xl bg-canvas-alt p-7">
-          <h2 className="font-display text-xl font-extrabold text-harbor">Go deeper on each outcome</h2>
+          <h2 className="font-display text-xl font-extrabold text-harbor">Detail on each outcome</h2>
           <ul className="mt-4 space-y-4">
             <li>
               <Link href="/level-vs-graded-vs-modified/level-benefit" className="font-semibold text-harbor-mid hover:underline">
-                Level benefit coverage, explained →
+                Level benefit, explained →
               </Link>
               <p className="mt-1 text-sm text-charcoal/70">
-                Why it&apos;s the lowest-cost tier, and what health profile typically qualifies.
+                Why it's cheapest, and what health profile typically qualifies.
               </p>
             </li>
             <li>
               <Link href="/level-vs-graded-vs-modified/graded-benefit" className="font-semibold text-harbor-mid hover:underline">
-                Graded benefit coverage, explained →
+                Graded benefit, explained →
               </Link>
               <p className="mt-1 text-sm text-charcoal/70">
-                How the step-up payout works, and why it&apos;s real, valid coverage.
+                How the step-up payout works, and why it's real coverage.
               </p>
             </li>
             <li>
               <Link href="/level-vs-graded-vs-modified/modified-benefit" className="font-semibold text-harbor-mid hover:underline">
-                Modified benefit coverage, explained →
+                Modified benefit, explained →
               </Link>
               <p className="mt-1 text-sm text-charcoal/70">
-                How the return-of-premium-plus-interest structure works, and how it differs from graded.
+                Return-of-premium-plus-interest, and how it differs from graded.
               </p>
             </li>
           </ul>
@@ -161,11 +149,11 @@ export default function LevelVsGradedVsModifiedPage() {
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/pre-existing-conditions" className="font-semibold text-harbor-mid hover:underline">
-              ← Back to the full pre-existing conditions guide
+              ← Back to the pre-existing conditions guide
             </Link>
           </p>
         </div>

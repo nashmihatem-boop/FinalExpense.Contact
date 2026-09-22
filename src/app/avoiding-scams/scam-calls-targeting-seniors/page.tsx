@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "How to Recognize a Scam Call Targeting Seniors",
+  title: "Real Call vs. Scam Call: A 10-Second Test",
   description:
-    "The specific differences between a legitimate final expense insurance call and a scam, and exactly what to do if you're on a suspicious call.",
-  openGraph: { title: "How to Recognize a Scam Call Targeting Seniors", description: "The specific differences between a legitimate final expense insurance call and a scam, and exactly what to do if you're on a suspicious call." },
+    "A fast comparison of what a legitimate final expense insurance call sounds like versus a scam, plus the quickest way to shut down a suspicious call.",
+  openGraph: { title: "Real Call vs. Scam Call: A 10-Second Test", description: "A fast comparison of what a legitimate final expense insurance call sounds like versus a scam, plus the quickest way to shut down a suspicious call." },
 
-  twitter: { title: "How to Recognize a Scam Call Targeting Seniors", description: "The specific differences between a legitimate final expense insurance call and a scam, and exactly what to do if you're on a suspicious call." },
+  twitter: { title: "Real Call vs. Scam Call: A 10-Second Test", description: "A fast comparison of what a legitimate final expense insurance call sounds like versus a scam, plus the quickest way to shut down a suspicious call." },
 };
 
 export default function ScamCallsTargetingSeniorsPage() {
@@ -19,66 +19,59 @@ export default function ScamCallsTargetingSeniorsPage() {
           <Link href="/avoiding-scams" className="hover:text-harbor">Avoiding Scams</Link> / Scam Calls Targeting Seniors
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How to recognize a scam call targeting seniors
+          Real call vs. scam call: a 10-second test
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Phone calls are still one of the most common ways final expense insurance gets compared
-          and sold — and one of the most common ways it gets scammed. The two can sound similar in
-          the first ten seconds, which is exactly why it helps to know the specific differences in
-          advance, before you&apos;re actually on the call.
+          Phone is still one of the fastest ways this coverage gets sold — and one of the fastest
+          ways it gets scammed. The opening seconds sound nearly identical either way, so having a
+          quick mental checklist ready beats trying to figure it out live.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What a legitimate call looks like
+          What a legitimate call sounds like, fast
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A licensed agent calling you — whether because you requested a quote or because
-          they&apos;re following up on an existing policy — will identify themselves by name, name
-          the company or agency they&apos;re calling from, and give you a license number if asked.
-          They&apos;ll explain the specific product they&apos;re discussing in plain terms, they
-          won&apos;t rush you into a decision on the first call, and any policy you agree to will
-          show up in writing afterward — an actual application and policy documents you can read,
-          keep, and reread before your first payment is ever due.
+          A licensed agent — whether you requested a quote or they're following up on an existing
+          policy — leads with their name, the company they're calling from, and a license number
+          on request, no hesitation. They explain the product in plain terms, don't push for a
+          same-call decision, and follow up with real paperwork you can review before any payment
+          is ever due.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Signs a call isn&apos;t legitimate
+          The fast tells that it isn't
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A few specific behaviors are reliable warning signs, regardless of how friendly or
-          confident the caller sounds.
+          A few behaviors are reliable red flags, no matter how confident the caller sounds.
         </p>
         <div className="mt-6 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">Watch for</p>
           <ul className="mt-3 space-y-2 text-base leading-relaxed text-charcoal/80">
-            <li>• Demanding immediate payment over the phone, especially by gift card, wire transfer, or cryptocurrency.</li>
-            <li>• Pressuring you to decide before you hang up, often with urgency like &quot;this rate expires today.&quot;</li>
-            <li>• Refusing to send anything in writing, or staying vague about the actual insurance company involved.</li>
-            <li>• Asking for a bank account, Social Security, or Medicare number early, before any legitimate reason to need it.</li>
-            <li>• Already seeming to know a lot about your finances or health from a source they won&apos;t explain.</li>
+            <li>• Demanding payment on the spot — especially gift card, wire transfer, or cryptocurrency.</li>
+            <li>• Rushing you with urgency lines like "this rate expires today."</li>
+            <li>• Refusing anything in writing, or staying vague about the actual company.</li>
+            <li>• Asking for a bank account, Social Security, or Medicare number too early.</li>
+            <li>• Already knowing details about your finances or health from an unexplained source.</li>
           </ul>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What to do if you&apos;re on a suspicious call right now
+          On a suspicious call right now? Do this
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Hang up. You don&apos;t owe a caller an explanation, a polite exit, or a chance to
-          counter your objection — a legitimate company loses nothing from you calling back later
-          through a number you looked up yourself. Don&apos;t confirm or give out personal or
-          financial information, even just to &quot;verify&quot; who you are, since scammers often
-          use small confirmed details to make the next call more convincing. If you want to check
-          whether the company they claimed actually exists, look it up separately — it takes just
-          a couple of minutes — using your state&apos;s insurance department, not a number or link
-          the caller gave you.
+          Hang up — no explanation needed, no polite exit required. A real company loses nothing
+          from a callback later, on a number you look up yourself. Don't confirm or share personal
+          or financial info, even just to "verify" who you are — scammers reuse small confirmed
+          details to make the next call more convincing. Want to check if the company's real? Look
+          it up separately through your state's insurance department, never through a link or
+          number the caller gave you.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Reporting it afterward
+          Report it right after
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Once you&apos;re off the call, it&apos;s worth reporting it. The Federal Trade
-          Commission takes reports of exactly this kind of call at{" "}
+          Takes two minutes. The Federal Trade Commission takes reports of exactly this at{" "}
           <a
             href="https://reportfraud.ftc.gov"
             target="_blank"
@@ -87,15 +80,14 @@ export default function ScamCallsTargetingSeniorsPage() {
           >
             reportfraud.ftc.gov
           </a>
-          , and reporting helps regulators track patterns even when a single report doesn&apos;t
-          lead to an individual investigation. If money changed hands, contacting your bank or
-          card issuer promptly matters too — the sooner a fraudulent transaction is reported, the
-          better the odds of stopping or reversing it.
+          , and reporting helps regulators spot patterns even if one report alone doesn't trigger
+          an investigation. If money already changed hands, call your bank or card issuer
+          immediately — speed matters most for actually getting it back.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/avoiding-scams" className="font-semibold text-harbor-mid hover:underline">

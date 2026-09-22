@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "How to Recognize Agent Fraud",
+  title: "3 Fast Red Flags for Agent Fraud",
   description:
-    "Red flags that an insurance agent isn't acting in your interest — payment requests, blank forms, withheld paperwork — and the fast way to check if you suspect fraud.",
-  openGraph: { title: "How to Recognize Agent Fraud", description: "Red flags that an insurance agent isn't acting in your interest — payment requests, blank forms, withheld paperwork — and the fast way to check if you suspect fraud." },
+    "Three specific, easy-to-spot signs an insurance agent isn't acting in your interest — payment requests, blank forms, withheld paperwork — and the fast fix for each.",
+  openGraph: { title: "3 Fast Red Flags for Agent Fraud", description: "Three specific, easy-to-spot signs an insurance agent isn't acting in your interest — payment requests, blank forms, withheld paperwork — and the fast fix for each." },
 
-  twitter: { title: "How to Recognize Agent Fraud", description: "Red flags that an insurance agent isn't acting in your interest — payment requests, blank forms, withheld paperwork — and the fast way to check if you suspect fraud." },
+  twitter: { title: "3 Fast Red Flags for Agent Fraud", description: "Three specific, easy-to-spot signs an insurance agent isn't acting in your interest — payment requests, blank forms, withheld paperwork — and the fast fix for each." },
 };
 
 export default function AgentFraudPage() {
@@ -19,72 +19,67 @@ export default function AgentFraudPage() {
           <Link href="/avoiding-scams" className="hover:text-harbor">Avoiding Scams</Link> / Agent Fraud
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How to recognize agent fraud
+          Three fast red flags for agent fraud
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          The vast majority of licensed agents do exactly what they&apos;re supposed to: compare
-          your options, submit your application accurately, and hand you your policy documents.
-          A small number don&apos;t. Three specific behaviors are reliable warning signs
-          regardless of how trustworthy or friendly an agent otherwise seems, and they&apos;re
-          worth knowing before you&apos;re in the middle of an application.
+          The large majority of agents do exactly what they should: match you to coverage fast,
+          file your application correctly, and get your documents into your hands without delay.
+          A small minority don&apos;t, and the tells are specific enough to check for in seconds —
+          worth scanning before you're mid-application, not after.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          A check made out to the agent, not the carrier
+          Red flag #1: they want the check made out to them
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Your premium payment should always be made out to the insurance company, never to an
-          individual agent or agency personally, and never handed over in cash. An agent asking
-          you to write a check to them directly, or to pay them in cash &quot;to save time&quot;
-          or &quot;to process it for you,&quot; has no legitimate reason to make that request —
-          it&apos;s also one of the more common ways an agent pockets a payment while a policy is
-          never actually written.
+          Your payment goes to the insurance company — full stop, never to an individual agent,
+          never in cash. Any pitch to pay the agent directly &quot;to save a step&quot; or
+          &quot;to move things faster&quot; has zero legitimate justification behind it. It's also
+          the fastest route for someone to collect your money while no actual policy ever gets
+          written.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Pressure to sign blank or incomplete forms
+          Red flag #2: they want you to sign something incomplete
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          You should never be asked to sign a form with blank sections on the promise that
-          &quot;we&apos;ll fill in the rest later.&quot; A signature on a blank or incomplete
-          application means you&apos;re agreeing to whatever gets written in afterward, by someone
-          else, without your review — including answers to health questions that affect whether a
-          future claim gets paid at all. Every field relevant to you should already be filled in
-          before you sign anything.
+          Never sign a form with blank fields on the promise it'll get &quot;filled in later.&quot;
+          A signature on an incomplete application hands someone else the ability to write in
+          whatever they choose afterward — including health answers that can determine whether a
+          future claim actually pays out. Confirm every applicable field is complete before you
+          sign, not after.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Refusing to give you copies of what you signed
+          Red flag #3: they stall on giving you your own copies
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          After you sign an application or a policy, you&apos;re entitled to a copy of it — not a
-          summary, not a verbal recap, the actual document. An agent who&apos;s slow to provide
-          it, vague about why, or who suggests you don&apos;t really need your own copy is giving
-          you a reason to be concerned. Keep copies of everything you sign for as long as the
-          policy is active.
+          You're entitled to the actual signed document, immediately — not a summary, not a verbal
+          rundown. An agent who drags their feet, gets vague about it, or implies you don't really
+          need your own copy is showing you a real problem. Keep every signed document on file for
+          as long as the policy is active; it costs you nothing and protects you completely.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What to do if you suspect fraud
+          Spotted one of these? Here's your fastest move
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Contact the insurance carrier directly — using contact information you find yourself,
-          not a number the agent gave you — and ask them to confirm that a policy actually exists
-          in your name and that any payment was applied to it. See our guide to{" "}
+          Contact the carrier directly — using contact info you look up yourself, not a number
+          the agent handed you — and ask them to confirm a policy exists in your name with your
+          payment correctly applied. Our guide to{" "}
           <Link href="/avoiding-scams/verify-a-company-is-legitimate" className="text-harbor-mid underline">
             verifying a company is legitimate
           </Link>{" "}
-          for how to find that contact information independently, fast. If anything doesn&apos;t
-          check out, or you can&apos;t get a straight answer, file a complaint with your
-          state&apos;s department of insurance — the same regulator that licensed the agent in the
-          first place. Complaints like this are exactly what that office exists to investigate,
-          and filing one doesn&apos;t require you to have already proven anything, just a
-          specific, honest account of what happened.
+          shows you exactly how to pull that information up on your own. If anything's off, or
+          you can't get a straight answer, file a complaint with your state's department of
+          insurance — the same regulator who issued the agent's license. That's precisely what
+          the office exists to investigate, and you don't need proof lined up before filing, just
+          a clear, specific account of what happened.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/avoiding-scams" className="font-semibold text-harbor-mid hover:underline">

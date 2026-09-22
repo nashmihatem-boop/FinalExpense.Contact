@@ -3,49 +3,49 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Avoiding Final Expense Insurance Scams",
+  title: "Avoiding Final Expense Scams: A Fast Reference Guide",
   description:
-    "Why final expense insurance draws scammers, how to verify a company is legitimate fast, and six specific things to check before you buy or switch a policy.",
-  openGraph: { title: "Avoiding Final Expense Insurance Scams", description: "Why final expense insurance draws scammers, how to verify a company is legitimate fast, and six specific things to check before you buy or switch a policy." },
+    "Compare the six specific scam patterns to watch for when shopping for final expense insurance, so you can move fast without moving carelessly.",
+  openGraph: { title: "Avoiding Final Expense Scams: A Fast Reference Guide", description: "Compare the six specific scam patterns to watch for when shopping for final expense insurance, so you can move fast without moving carelessly." },
 
-  twitter: { title: "Avoiding Final Expense Insurance Scams", description: "Why final expense insurance draws scammers, how to verify a company is legitimate fast, and six specific things to check before you buy or switch a policy." },
+  twitter: { title: "Avoiding Final Expense Scams: A Fast Reference Guide", description: "Compare the six specific scam patterns to watch for when shopping for final expense insurance, so you can move fast without moving carelessly." },
 };
 
 const TOPICS = [
   {
-    title: "Verifying a company is actually legitimate",
+    title: "Confirm a company is legit — in under 5 minutes",
     description:
-      "A few fast checks: a carrier's and agent's state license, an NPN lookup, and payment requests no real insurance company would ever make.",
+      "The fast, free way to check a carrier's and agent's state license before you compare anything else.",
     href: "/avoiding-scams/verify-a-company-is-legitimate",
   },
   {
-    title: "Reading insurance ads for what they actually say",
+    title: "Decode the ad before you click",
     description:
-      "Why “as low as” pricing and “no medical exam” claims mean something narrower than they sound like.",
+      "What “as low as” and “no medical exam” actually mean, so you're comparing real numbers, not headlines.",
     href: "/avoiding-scams/truth-about-insurance-ads",
   },
   {
-    title: "Spotting a scam call before it costs you anything",
+    title: "Real call vs. scam call, side by side",
     description:
-      "The specific differences between a licensed agent's call and a scammer's, and what to do if you're already on the phone with one.",
+      "The exact tells that separate a licensed agent from someone trying to rush your decision.",
     href: "/avoiding-scams/scam-calls-targeting-seniors",
   },
   {
-    title: "Knowing who you're actually buying from",
+    title: "Captive, independent, or direct — know which one you're getting",
     description:
-      "A quick, honest explanation of a captive agent, an independent agent, and buying direct from a carrier.",
+      "A quick, no-spin comparison of the three ways to buy, so you know exactly who's on your side of the table.",
     href: "/avoiding-scams/independent-vs-captive-vs-direct",
   },
   {
-    title: "Understanding policy churning",
+    title: "Don't get talked into a swap you don't need",
     description:
-      "What it can cost you if someone talks you into replacing a policy you already have, and how to protect yourself.",
+      "What replacing a policy you already own can quietly cost you, and how to compare before you sign.",
     href: "/avoiding-scams/policy-churning",
   },
   {
-    title: "Recognizing agent fraud",
+    title: "Spot agent fraud before it costs you anything",
     description:
-      "The specific red flags that an agent isn't acting in your interest, and what to do if you spot one.",
+      "The specific red flags that mean an agent isn't working in your interest — and your next move.",
     href: "/avoiding-scams/agent-fraud",
   },
 ];
@@ -58,49 +58,48 @@ export default function AvoidingScamsPage() {
           <Link href="/" className="hover:text-harbor">Home</Link> / Avoiding Scams
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Avoiding final expense insurance scams
+          Avoiding final expense scams: a fast reference guide
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Final expense insurance is a small policy, but it&apos;s rarely a small decision.
-          It&apos;s usually bought later in life, often specifically to spare family members a
-          burden, and sometimes while someone is thinking through a diagnosis or a spouse&apos;s
-          passing. That combination — an important decision, made under emotional weight, without
-          much room for a do-over — is exactly what draws people looking to take advantage. This
-          fast-reference guide covers what to watch for, however you end up comparing options.
+          You're comparing options fast, which is exactly the right move — but speed and caution
+          aren't actually in tension here. Final expense insurance tends to be bought later in
+          life, often on a tight timeline, and that combination of urgency and unfamiliarity is
+          precisely what a small number of bad actors are counting on. This page is built to be
+          scanned quickly: six specific patterns, laid out clearly, so you can compare your options
+          with confidence instead of slowing down out of uncertainty.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Why this market draws bad actors
+          Why scammers target this market specifically
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Final expense buyers skew older, are sometimes on a fixed income, and sometimes make
-          the decision without a family member reviewing it alongside them. A lot of this
-          business is still conducted by phone or by mail rather than face to face. None of that
-          means most buyers are vulnerable, or that most agents are anything other than licensed
-          professionals doing ordinary, legitimate work — the overwhelming majority of this
-          industry is exactly that. But a market with these features does draw a specific kind of
-          bad actor: one who relies on urgency and unfamiliarity with the product to skip the
-          scrutiny a purchase like this deserves. Recognizing the pattern is most of the defense.
+          Three things line up here: buyers skew older, a lot of shopping still happens by phone
+          or mail instead of face to face, and decisions sometimes get made solo, without another
+          set of eyes comparing the offer. None of that means most buyers are easy targets, and it
+          definitely doesn't mean most agents are anything but legitimate, licensed
+          professionals — that describes the overwhelming majority of this industry. But wherever
+          urgency and unfamiliarity line up, a specific kind of bad actor shows up to exploit the
+          gap between them, betting that you won't stop to compare. Knowing the pattern in advance
+          is the fastest way to shut that down.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          The good news: this is a regulated market
+          The upside: this market is genuinely regulated
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Insurance is one of the more heavily regulated consumer products that exists. Every
-          company and every individual agent selling final expense insurance has to be licensed
-          in the state where you live, and that license is public information you can look up
-          yourself in a couple of minutes, for free. That&apos;s not a workaround — it&apos;s the
-          normal, intended way this market is supposed to work, and it&apos;s available to you no
-          matter who you end up comparing quotes with, including an agency like this one.
+          Insurance sits under some of the tightest consumer regulation that exists. Every company
+          and every individual agent needs an active state license to legally sell you anything —
+          and checking that license costs you nothing and takes only a couple of minutes. This
+          isn't a workaround or a power move; it's simply how the system is built to work, for
+          every buyer comparing every agency, this one included.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Six things worth knowing before you buy
+          Six quick comparisons before you buy
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The rest of this guide breaks down into six specific, practical topics. None of them
-          require special expertise — just knowing what to look for before you need to.
+          Each topic below is scoped to be a fast read — no special expertise required, just a
+          quick pass through what to check before you commit to anything.
         </p>
         {TOPICS.map((topic) => (
           <div key={topic.href} className="mt-8">
@@ -114,7 +113,7 @@ export default function AvoidingScamsPage() {
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/" className="font-semibold text-harbor-mid hover:underline">

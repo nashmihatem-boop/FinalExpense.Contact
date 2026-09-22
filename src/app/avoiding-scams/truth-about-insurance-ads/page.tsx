@@ -1,110 +1,86 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "The Truth About Final Expense Insurance Ads",
+  title: "Decode the Ad in 60 Seconds",
   description:
-    "How to read \"as low as\" pricing, the real difference between no medical exam and no health questions, and why a familiar face in an ad isn't a reason to skip comparing.",
-  openGraph: { title: "The Truth About Final Expense Insurance Ads", description: "How to read \"as low as\" pricing, the real difference between no medical exam and no health questions, and why a familiar face in an ad isn't a reason to skip comparing." },
+    "A fast decoder for \"as low as\" pricing and \"no medical exam\" claims in final expense insurance ads, so you compare real numbers instead of headlines.",
+  openGraph: { title: "Decode the Ad in 60 Seconds", description: "A fast decoder for \"as low as\" pricing and \"no medical exam\" claims in final expense insurance ads, so you compare real numbers instead of headlines." },
 
-  twitter: { title: "The Truth About Final Expense Insurance Ads", description: "How to read \"as low as\" pricing, the real difference between no medical exam and no health questions, and why a familiar face in an ad isn't a reason to skip comparing." },
+  twitter: { title: "Decode the Ad in 60 Seconds", description: "A fast decoder for \"as low as\" pricing and \"no medical exam\" claims in final expense insurance ads, so you compare real numbers instead of headlines." },
 };
 
 export default function TruthAboutInsuranceAdsPage() {
   return (
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
-        <p className="text-sm text-charcoal/50">
-          <Link href="/avoiding-scams" className="hover:text-harbor">Avoiding Scams</Link> / The Truth About Insurance Ads
-        </p>
-        <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          The truth about final expense insurance ads
+        <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
+          Decode the ad in 60 seconds
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Insurance advertising is legal, common, and — like advertising for almost anything else
-          — built to put its best foot forward. That&apos;s not inherently dishonest, but it does
-          mean a few specific phrases show up constantly and mean something narrower than they
-          sound like. Knowing what they actually mean is most of the skill, and it takes less time
-          than the ad wants you to think.
+          Insurance ads aren't lying, exactly — they're just optimized, same as any other ad. A
+          handful of phrases show up constantly and mean something narrower than the headline
+          suggests. Decode them once and you'll compare every future ad faster.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          &quot;As low as&quot; is a best case, not your case
+          &quot;As low as&quot; = someone else's rate
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The headline price in most ads is the rate for the healthiest, youngest applicant the
-          insurer will cover at that coverage amount — not a quote for you specifically. Your
-          actual premium depends on your age, gender, coverage amount, tobacco use, and health, so
-          the number in the ad works more like a starting line than a promise. That&apos;s not
-          necessarily deceptive on its own — it&apos;s usually disclosed, technically accurate
-          math — but treating it as your price before you&apos;ve actually compared options is
-          where people get a surprise. The only way to know your real number is to go through
+          That headline number is the rate for the healthiest, youngest applicant the insurer
+          covers — not a quote for you. Your real premium depends on age, gender, coverage amount,
+          tobacco use, and health, so treat the ad number as a floor, not a promise. It's usually
+          technically accurate, disclosed math — the mistake is assuming it's your price before
+          you've actually applied. The only fast way to your real number: run it through
           underwriting with a specific carrier.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          &quot;No medical exam&quot; and &quot;no health questions&quot; are not the same thing
+          &quot;No medical exam&quot; ≠ &quot;no health questions&quot;
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          These two phrases get used almost interchangeably in ads, and they describe two
-          genuinely different products. &quot;No medical exam&quot; usually describes
-          simplified-issue underwriting — no nurse visit, no bloodwork, but you still answer a set
-          of health questions, and your answers still affect your eligibility and rate.
-          &quot;No health questions&quot; describes guaranteed-acceptance coverage, which skips
-          health questions entirely but, in exchange, carries a waiting period — typically two
-          years — before it pays the full benefit for a death from natural causes. We cover this
-          distinction in more depth in our{" "}
-          <Link
-            href="/pre-existing-conditions#the-two-paths-and-how-simplified-issue-works"
-            className="text-harbor-mid underline"
-          >
-            guide to buying with a pre-existing condition
-          </Link>
-          , but the short version for reading an ad is this: if it promises no health questions
-          and no waiting period in the same breath, that combination doesn&apos;t exist in this
-          market, and the ad is either careless or dishonest.
+          Ads use these almost interchangeably, but they're two different products. &quot;No
+          medical exam&quot; means simplified issue — no bloodwork, but you still answer health
+          questions that set your rate. &quot;No health questions&quot; means guaranteed
+          acceptance — skips health questions entirely, but adds a waiting period (typically two
+          years) before it pays the full benefit for natural-cause death. Full comparison in our{" "}
+          <a href="/pre-existing-conditions#the-two-paths-and-how-simplified-issue-works" className="text-harbor-mid underline">
+            pre-existing condition guide
+          </a>
+          . Fast rule: if an ad promises no health questions AND no waiting period at once, that
+          combination doesn't exist — the ad is wrong.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          A familiar face isn&apos;t a recommendation
+          A celebrity face isn't a comparison shortcut
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A lot of final expense advertising uses a celebrity spokesperson or a familiar TV
-          personality. That&apos;s a marketing arrangement — the person was paid to appear, not to
-          compare the product against its competitors. It says nothing about whether that
-          specific company&apos;s rates, underwriting, or claims experience are actually the best
-          fit for you. Treat a celebrity endorsement the way you&apos;d treat any other paid
-          placement: as a reason the ad got your attention, not a reason to skip comparing it to
-          anything else.
+          A familiar spokesperson got paid to show up — that's it. It says nothing about whether
+          that carrier's rates or claims record actually beat the competition. Treat it as
+          attention-grabbing, not decision-making, and keep comparing.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Reading an ad like an informed buyer
+          The 4-question fast check
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          None of the questions below take long to ask, and a legitimate agent will answer all of
-          them plainly, fast.
+          Run any ad through these before you call — a legitimate agent answers all four without
+          hesitation.
         </p>
         <div className="mt-6 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">A few questions worth asking</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Fast check</p>
           <ul className="mt-3 space-y-2 text-base leading-relaxed text-charcoal/80">
-            <li>• Is this price actually for someone my age and health, or the best case they can advertise?</li>
-            <li>• Does &quot;no exam&quot; here mean I still answer health questions?</li>
-            <li>• If there&apos;s a waiting period, how long is it, and what exactly does it apply to?</li>
-            <li>• Am I comparing this to anything else, or just responding to the first ad I saw?</li>
+            <li>• Is this price for my age and health, or the best case they can advertise?</li>
+            <li>• Does &quot;no exam&quot; still mean I answer health questions?</li>
+            <li>• If there's a waiting period, how long — and what exactly triggers it?</li>
+            <li>• Am I actually comparing this to another option, or just reacting to one ad?</li>
           </ul>
         </div>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
-          <p className="mt-4 text-sm text-charcoal/60">
-            <Link href="/avoiding-scams" className="font-semibold text-harbor-mid hover:underline">
-              ← Back to Avoiding Scams
-            </Link>
-          </p>
         </div>
       </div>
     </div>

@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "What Affects Cemetery Plot Cost",
+  title: "Cemetery Plot Cost: The Fast Breakdown",
   description:
-    "The factors that drive cemetery plot pricing — location, cemetery type, and fees like perpetual care — and how to get a real number fast.",
-  openGraph: { title: "What Affects Cemetery Plot Cost", description: "The factors that drive cemetery plot pricing — location, cemetery type, and fees like perpetual care — and how to get a real number fast." },
+    "A fast breakdown of what drives cemetery plot pricing — location, cemetery type, and fees like perpetual care — and how to get a real number quickly.",
+  openGraph: { title: "Cemetery Plot Cost: The Fast Breakdown", description: "A fast breakdown of what drives cemetery plot pricing — location, cemetery type, and fees like perpetual care — and how to get a real number quickly." },
 
-  twitter: { title: "What Affects Cemetery Plot Cost", description: "The factors that drive cemetery plot pricing — location, cemetery type, and fees like perpetual care — and how to get a real number fast." },
+  twitter: { title: "Cemetery Plot Cost: The Fast Breakdown", description: "A fast breakdown of what drives cemetery plot pricing — location, cemetery type, and fees like perpetual care — and how to get a real number quickly." },
 };
 
 export default function CemeteryPlotCostPage() {
@@ -19,76 +19,62 @@ export default function CemeteryPlotCostPage() {
           <Link href="/funeral-cost" className="hover:text-harbor">Funeral Cost</Link> / Cemetery Plot Cost
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What affects the cost of a cemetery plot
+          Cemetery plot cost: the fast breakdown
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          A cemetery plot is priced separately from anything a funeral home charges, by a
-          completely different business with its own rules. Here&apos;s what actually moves that
-          price, so you know what to ask when you call and compare.
+          Priced entirely separately from the funeral home, by a different business with its own
+          rules. Fast rundown of what moves plot price, so you know exactly what to ask.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Location is the biggest factor
+          Location is the #1 factor
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Cemetery pricing follows real estate logic more than anything else. Land in or near a
-          dense metro area is scarcer and more expensive than land in a small town or rural
-          county, and that difference shows up directly in plot prices. Even within the same city,
-          an older, established cemetery with limited remaining space can price very differently
-          than a newer cemetery on the edge of town with more room to sell.
+          Follows real estate logic. Land near a metro area costs more than rural land — shows up
+          directly in plot prices. Same city, different cemetery: an older one low on space can
+          price very differently than a newer one with room to spare.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Public, religious, and private cemeteries price differently
+          Public, religious, private — different pricing models
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A municipal or county-owned cemetery sometimes offers lower rates, particularly for
-          residents of that town or county. A religious or fraternal cemetery may reserve space
-          for members of that faith or organization, often at its own separate rate. Privately
-          owned and corporate cemeteries set their own market pricing and frequently tier it
-          further within the property itself — a section with mature trees, a water feature, or a
-          spot along the main path can carry a premium over a standard section, the same way a
-          better lot commands more in any real estate market.
+          Municipal cemeteries sometimes offer lower resident rates. Religious or fraternal
+          cemeteries may reserve space at their own rate. Private cemeteries set market pricing
+          and often tier by section — mature trees or a premium path location cost more, same as
+          any real estate market.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What you&apos;re actually buying
+          What you're actually buying
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Buying a plot buys the right to use that specific space for burial — an interment right
-          — not the land itself in the way a home is owned. Separate from the plot price, nearly
-          every cemetery also charges an opening-and-closing fee: the physical work of digging the
-          grave before the service and closing it afterward. It&apos;s easy to budget for the plot
-          and forget this second line item, so ask for it specifically when comparing prices.
+          An interment right — permission to use that space — not land ownership. Separate cost:
+          nearly every cemetery charges opening-and-closing for the physical digging work. Easy to
+          forget, budget for it specifically.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Perpetual care — ask about this directly
+          Perpetual care — ask directly, fast
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Many cemeteries charge, or build into the plot price, a perpetual — or endowment — care
-          fee that funds long-term maintenance of the grounds: mowing, upkeep of roads and
-          irrigation, and the general appearance of the property for as long as it operates. A
-          number of states actually require cemeteries to maintain a perpetual care fund. What
-          varies is whether that fee is already folded into the price you&apos;re quoted or billed
-          separately, and that&apos;s a common source of confusion when comparing two
-          cemeteries&apos; prices side by side.
+          Many cemeteries fold in or separately bill a perpetual/endowment care fee funding
+          ongoing maintenance. Some states require it. Folded in or separate? Ask — common
+          confusion point when comparing quotes.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold text-harbor">Getting an accurate number</p>
+          <p className="text-sm font-bold text-harbor">Get the full number</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Because none of this is standardized, the fastest reliable way to compare actual cost
-            is to contact cemeteries in the area directly, and ask specifically whether the quote
-            includes opening and closing and perpetual care, or whether those come on top. That
-            full total, not just the headline plot price, is the number worth building into how
-            you size coverage alongside everything else a funeral involves.
+            Nothing's standardized — call cemeteries directly, ask specifically whether opening,
+            closing, and perpetual care are included or extra. That full total is what to size
+            coverage against.
           </p>
         </div>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/funeral-cost" className="font-semibold text-harbor-mid hover:underline">

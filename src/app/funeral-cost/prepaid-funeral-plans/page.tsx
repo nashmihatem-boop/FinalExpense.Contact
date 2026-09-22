@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Prepaid Funeral Plans vs. Final Expense Insurance",
+  title: "Prepaid Plans vs. Final Expense Insurance: Side by Side",
   description:
-    "How a prepaid funeral plan works, how it differs from final expense insurance, and the real tradeoffs to compare before choosing either.",
-  openGraph: { title: "Prepaid Funeral Plans vs. Final Expense Insurance", description: "How a prepaid funeral plan works, how it differs from final expense insurance, and the real tradeoffs to compare before choosing either." },
+    "A fast, side-by-side comparison of prepaid funeral plans and final expense insurance — how each works, and the tradeoffs that matter most.",
+  openGraph: { title: "Prepaid Plans vs. Final Expense Insurance: Side by Side", description: "A fast, side-by-side comparison of prepaid funeral plans and final expense insurance — how each works, and the tradeoffs that matter most." },
 
-  twitter: { title: "Prepaid Funeral Plans vs. Final Expense Insurance", description: "How a prepaid funeral plan works, how it differs from final expense insurance, and the real tradeoffs to compare before choosing either." },
+  twitter: { title: "Prepaid Plans vs. Final Expense Insurance: Side by Side", description: "A fast, side-by-side comparison of prepaid funeral plans and final expense insurance — how each works, and the tradeoffs that matter most." },
 };
 
 export default function PrepaidFuneralPlansPage() {
@@ -19,87 +19,66 @@ export default function PrepaidFuneralPlansPage() {
           <Link href="/funeral-cost" className="hover:text-harbor">Funeral Cost</Link> / Prepaid Plans vs. Insurance
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Prepaid funeral plans vs. final expense insurance
+          Prepaid plans vs. final expense insurance: side by side
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Both are ways to plan ahead financially so a funeral isn&apos;t a scramble for whoever
-          is left to handle it. They work in genuinely different ways, though, and comparing the
-          difference matters more than it might seem to at first.
+          Two ways to plan ahead financially. Different mechanics, different tradeoffs. Here's the
+          fast comparison.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What a prepaid funeral plan is
+          Prepaid plan: how it works
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A prepaid, or &quot;preneed,&quot; funeral plan is a contract with one specific funeral
-          home. You sit down with that provider, choose the services and merchandise you want, and
-          pay for that package in advance, either as a lump sum or in installments. Depending on
-          the state and the provider, the money is typically placed in a trust or used to fund a
-          small life insurance policy or annuity earmarked for that plan, and the rules protecting
-          those funds vary by state. The appeal is straightforward: the decisions are made, the
-          arrangement is on file, and, depending on how the contract is structured, the price may
-          be locked in even if that provider&apos;s prices rise later.
+          A contract with one specific funeral home. You pick services and merchandise, pay in
+          advance — lump sum or installments. Funds typically go into a trust or fund a small
+          policy/annuity earmarked for the plan; protections vary by state. Upside: decisions made,
+          arrangement on file, price sometimes locked in.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What final expense insurance is, and how it&apos;s different
+          Final expense insurance: how it works
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Final expense insurance is a life insurance policy. When you pass away, it pays a cash
-          death benefit directly to the beneficiary you named — not to a funeral home, and not
-          earmarked for any specific use. Your beneficiary can use that money at any funeral home
-          or cemetery, in any city, for any combination of services, or even put part of it toward
-          something else entirely if that turns out to matter more at the time. You decide the
-          coverage amount upfront, based on your own estimate of what you want it to cover — it
-          isn&apos;t tied to one provider&apos;s package or price list.
+          A life insurance policy. Pays a cash death benefit directly to your named beneficiary —
+          not to a funeral home, not earmarked. Usable at any provider, any city, any combination of
+          services. You set the amount upfront; it isn't tied to one provider's price list.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The real tradeoffs of a prepaid plan
+          Prepaid plan: the tradeoffs
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A prepaid plan&apos;s biggest weakness is portability. The money is tied to one specific
-          funeral home, so if you move to a new city or state, using those funds elsewhere can
-          range from straightforward to genuinely difficult, depending on the contract and whether
-          a new provider will honor it. Funeral homes also get sold, merge, or close — and while
-          reputable providers generally work to honor existing preneed contracts through a
-          transfer, it can add stress and delay at exactly the moment your family doesn&apos;t
-          need more of either. There&apos;s also less flexibility: the specific services and
-          merchandise were chosen at the time of signing, sometimes decades before they&apos;re
-          used, and preferences or circumstances can change in the meantime. Refund and
-          cancellation terms vary a lot by state and by contract, so it&apos;s worth reading the
-          fine print, not just the sales brochure.
+          Portability is the weak point. Tied to one funeral home — a move can make using funds
+          elsewhere hard, sometimes impossible without a cooperating new provider. Funeral homes
+          sell, merge, close; transfers usually happen but add delay and stress. Less flexibility:
+          choices locked in at signing, sometimes decades early. Refund/cancellation terms vary a
+          lot — read the contract, not just the pitch.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The real tradeoffs of final expense insurance
+          Insurance: the tradeoffs
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          In fairness, insurance has its own tradeoffs. Because the payout is cash rather than a
-          locked-in package, it depends on your beneficiary actually following through and using
-          it as intended — there&apos;s no provider or contract enforcing that. It also means none
-          of the decisions are made in advance; your family will still need to make the same
-          choices a prepaid plan would have settled ahead of time, just without the financial
-          uncertainty hanging over them. And it&apos;s an ongoing premium rather than a single
-          upfront transaction, though premiums on a final expense policy are typically designed to
-          stay level for the life of the policy.
+          Cash payout depends on your beneficiary following through — no contract enforces the
+          spending. Decisions aren't pre-made; your family still chooses services at the time,
+          just without financial pressure. Ongoing premium instead of one payment, though final
+          expense premiums are typically designed to stay level for life.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold text-harbor">Which one actually fits</p>
+          <p className="text-sm font-bold text-harbor">Bottom line</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Neither is a strictly better answer. Plenty of people choose final expense insurance
-            specifically for the flexibility and portability, and plenty of people value having
-            every decision already made and paid for through a prepaid plan. Some families use
-            both. Either way, get a current, itemized estimate from a local provider before you
-            commit to anything, and compare whatever you choose — plan or policy — against that
-            number plus a cushion.
+            Neither wins outright. Some want flexibility and portability — insurance. Some want
+            every decision made in advance — a prepaid plan. Some do both. Get a real itemized
+            quote from a local provider first, then size whichever you pick to that number plus a
+            cushion.
           </p>
         </div>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/funeral-cost" className="font-semibold text-harbor-mid hover:underline">

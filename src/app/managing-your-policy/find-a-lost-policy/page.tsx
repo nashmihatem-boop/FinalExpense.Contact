@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "How to Find a Lost Life Insurance Policy",
+  title: "Find a Lost Policy: Fastest Places to Check",
   description:
-    "Practical steps for tracking down a policy you believe exists but can't find paperwork for, including free lookup resources.",
-  openGraph: { title: "How to Find a Lost Life Insurance Policy", description: "Practical steps for tracking down a policy you believe exists but can't find paperwork for, including free lookup resources." },
+    "The fastest places to check for a lost life insurance policy — financial records, employer coverage, and free state and national locator tools.",
+  openGraph: { title: "Find a Lost Policy: Fastest Places to Check", description: "The fastest places to check for a lost life insurance policy — financial records, employer coverage, and free state and national locator tools." },
 
-  twitter: { title: "How to Find a Lost Life Insurance Policy", description: "Practical steps for tracking down a policy you believe exists but can't find paperwork for, including free lookup resources." },
+  twitter: { title: "Find a Lost Policy: Fastest Places to Check", description: "The fastest places to check for a lost life insurance policy — financial records, employer coverage, and free state and national locator tools." },
 };
 
 export default function FindALostPolicyPage() {
@@ -20,80 +20,71 @@ export default function FindALostPolicyPage() {
           <Link href="/managing-your-policy" className="hover:text-harbor">Managing Your Policy</Link> / Find a Lost Policy
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Finding a policy you can&apos;t locate paperwork for
+          Find a lost policy: fastest places to check
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Whether you&apos;ve misplaced your own policy documents or you believe a family member
-          had coverage but can&apos;t find proof, there are concrete places to look before
-          assuming a policy doesn&apos;t exist.
+          Missing your own paperwork, or think a family member had coverage but can't find proof?
+          Work this list fast before assuming there's no policy at all.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Start with financial records
+          Check financial records first
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Bank and checking account statements are often the fastest lead — look for a recurring
-          withdrawal to an insurance carrier, especially one that shows up monthly, quarterly, or
-          annually. Also check for canceled checks, credit card statements, a filing cabinet, or a
-          safe deposit box, all common places people keep policy paperwork.
+          Fastest lead: bank and checking statements. Look for a recurring withdrawal to an
+          insurance carrier — monthly, quarterly, or yearly. Also scan canceled checks, credit
+          card statements, a filing cabinet, or a safe deposit box.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Check email and mail
+          Search email and mail
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Carriers typically send annual statements, premium due notices, or policy anniversary
-          letters. Search email for the carrier&apos;s name if you have any idea who it might be,
-          or general terms like &quot;premium,&quot; &quot;policy,&quot; or
-          &quot;statement.&quot; Physical mail piles and old filing folders are worth a look too.
+          Carriers send annual statements, premium notices, anniversary letters. Search email for
+          a carrier name if you have any lead, or try "premium," "policy," "statement." Check
+          physical mail piles and old folders too.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Ask their agent, if you know who it was
+          Contact the agent, if known
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          If you know which agent or agency originally sold the policy, reach out — agencies often
-          keep records well beyond the sale date and may be able to confirm a policy exists even
-          if you can&apos;t find your own copy.
+          Know who sold the policy? Reach out directly — agencies keep records well past the sale
+          date and can often confirm a policy exists even without your own copy.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Consider employer coverage too
+          Check for employer coverage
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          If the person worked full-time, it&apos;s worth checking whether an employer offered
-          group or supplemental life insurance. That&apos;s a different category of coverage from
-          an individually owned final expense policy, but it&apos;s a common source people forget
-          to check.
+          Full-time employer? Check for group or supplemental life insurance — a different
+          category from an individually owned final expense policy, and one people commonly
+          forget to check.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Check your state&apos;s unclaimed property office
+          Search your state's unclaimed property database
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Every state maintains an unclaimed property database, and life insurance proceeds can
-          end up there if a carrier was ever unable to locate a beneficiary. Search &quot;[your
-          state] unclaimed property&quot; to find your state&apos;s official lookup tool —
-          it&apos;s free, and worth checking under every name and past address the person used.
+          Every state runs one, and life insurance proceeds land there when a carrier couldn't
+          find the beneficiary. Search "[your state] unclaimed property" — free, and worth
+          checking every name and past address used.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Try the NAIC&apos;s policy locator service
+          Use the NAIC's free locator tool
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The National Association of Insurance Commissioners (NAIC) — the organization that
-          coordinates state insurance regulators — runs a free life insurance policy locator
-          service. You submit a request with some basic information about the person, and
-          it&apos;s forwarded to participating carriers to check for a matching policy. It&apos;s
-          a legitimate, no-cost resource built specifically for this situation.
+          The National Association of Insurance Commissioners runs a free policy locator — submit
+          basic info, and it's forwarded to participating carriers to check for a match. Free,
+          legitimate, built for exactly this.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">A note on patience</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Keep going</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Finding a lost policy often takes checking several of these sources together rather
-            than one lookup solving it immediately. It&apos;s frustrating, but it&apos;s rarely a
-            dead end — keep working down the list.
+            Usually takes checking a few of these together, not one lookup solving it instantly.
+            Frustrating, but rarely a true dead end.
           </p>
         </div>
 

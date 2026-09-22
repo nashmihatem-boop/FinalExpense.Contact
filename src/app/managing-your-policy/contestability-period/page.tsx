@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "The Life Insurance Contestability Period, Explained",
+  title: "Contestability Period: The 2-Year Rule, Fast",
   description:
-    "What the standard two-year contestability period means, why it exists, and how it differs from a graded or modified waiting period.",
-  openGraph: { title: "The Life Insurance Contestability Period, Explained", description: "What the standard two-year contestability period means, why it exists, and how it differs from a graded or modified waiting period." },
+    "A fast explanation of the standard two-year contestability period, why carriers use it, and how it's different from a graded or modified waiting period.",
+  openGraph: { title: "Contestability Period: The 2-Year Rule, Fast", description: "A fast explanation of the standard two-year contestability period, why carriers use it, and how it's different from a graded or modified waiting period." },
 
-  twitter: { title: "The Life Insurance Contestability Period, Explained", description: "What the standard two-year contestability period means, why it exists, and how it differs from a graded or modified waiting period." },
+  twitter: { title: "Contestability Period: The 2-Year Rule, Fast", description: "A fast explanation of the standard two-year contestability period, why carriers use it, and how it's different from a graded or modified waiting period." },
 };
 
 export default function ContestabilityPeriodPage() {
@@ -20,55 +20,47 @@ export default function ContestabilityPeriodPage() {
           <Link href="/managing-your-policy" className="hover:text-harbor">Managing Your Policy</Link> / The Contestability Period
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Understanding the two-year contestability period
+          Contestability period: the 2-year rule, fast
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          &quot;Two years&quot; comes up a lot in life insurance, and it doesn&apos;t always mean
-          the same thing. The contestability period is one specific version of it — standard
-          across the industry, not something to be alarmed by, but worth actually understanding.
+          "Two years" gets used for a few different things in life insurance. This is one
+          specific version, standard industry-wide, nothing alarming — just worth knowing exactly
+          what it covers.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What it actually is
+          The quick definition
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The contestability period is a standard window — typically the first two years a policy
-          is in force — during which the carrier has the right to review a claim closely and
-          verify that the original application was accurate before paying it out. After that
-          window passes, the policy is generally considered &quot;incontestable&quot; on those
-          grounds for most situations, though outright fraud usually remains an exception
-          regardless of how much time has passed. Confirm the specifics with your carrier, since
-          exact terms are set by your policy.
+          A standard window — typically the policy's first two years — where the carrier can
+          review a claim closely to confirm the original application was accurate before paying
+          it. After that window, the policy is generally settled on those grounds, with fraud as
+          the one lasting exception. Confirm exact terms with your carrier since specifics vary.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
           Why it exists
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          It protects the cost structure that keeps insurance affordable for everyone. If someone
-          misrepresented their health to get coverage they wouldn&apos;t have otherwise qualified
-          for, the contestability period is the carrier&apos;s window to catch that before a large
-          payout goes out — which keeps premiums fair for the vast majority of applicants who
-          answered honestly in the first place.
+          It protects the pricing structure that keeps this coverage affordable. If someone
+          misstated their health to qualify, this window is the carrier's chance to catch it
+          before a large payout — which keeps rates fair for everyone who answered honestly.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What can trigger a closer look
+          What triggers extra review
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A death within the contestability window, particularly from a cause connected to a
-          health condition that wasn&apos;t disclosed on the application, is what typically
-          prompts a closer review. A closer look isn&apos;t the same as a denial — it simply means
-          the carrier is confirming the application matches medical and prescription records
-          before releasing payment.
+          A death within this window, especially tied to an undisclosed health condition, usually
+          prompts a closer look. That's not a denial — just the carrier confirming the
+          application matches medical and prescription records before releasing payment.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Not the same as a graded or modified waiting period
+          Not the same as a graded or modified wait
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          These two &quot;two-year&quot; concepts get confused often enough that it&apos;s worth
-          spelling out the difference directly.
+          These two get confused constantly — quick side-by-side.
         </p>
         <div className="mt-6 overflow-x-auto rounded-2xl border border-mist">
           <table className="w-full min-w-[480px] border-collapse text-left">
@@ -95,20 +87,19 @@ export default function ContestabilityPeriodPage() {
           </table>
         </div>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          If a health condition is part of what you&apos;re weighing, our{" "}
+          Health condition part of the mix? Our{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
-            guide to pre-existing conditions
+            pre-existing conditions guide
           </Link>{" "}
-          covers how graded and modified benefit schedules work in more detail.
+          breaks down graded and modified schedules fast.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Innocent mistakes vs. misrepresentation</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Mistakes vs. misrepresentation</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            A review during the contestability period is generally looking for material
-            misrepresentation — an answer that would have actually changed the underwriting
-            decision — not minor paperwork inconsistencies. If your policy is past its second
-            anniversary, this generally isn&apos;t something to worry about going forward.
+            A review here targets misrepresentation that would've actually changed the
+            underwriting call — not minor paperwork slips. Past your second anniversary? This
+            isn't something to worry about anymore.
           </p>
         </div>
 
@@ -117,9 +108,9 @@ export default function ContestabilityPeriodPage() {
             Call {siteConfig.supportPhoneDisplay}
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
-            Comparing a new policy?{" "}
+            Shopping for a new policy?{" "}
             <Link href="/get-quote" className="font-semibold text-harbor-mid hover:underline">
-              Compare my options →
+              See what you qualify for →
             </Link>
           </p>
           <p className="mt-3 text-sm text-charcoal/60">

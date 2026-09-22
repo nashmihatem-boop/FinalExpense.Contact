@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Borrowing Against Your Policy's Cash Value",
+  title: "Policy Loans: The Fast Version",
   description:
-    "How a policy loan against a whole life policy's cash value works, and what an unpaid loan does to the death benefit.",
-  openGraph: { title: "Borrowing Against Your Policy's Cash Value", description: "How a policy loan against a whole life policy's cash value works, and what an unpaid loan does to the death benefit." },
+    "A fast rundown of how a policy loan against cash value works, and exactly what an unpaid loan does to your death benefit.",
+  openGraph: { title: "Policy Loans: The Fast Version", description: "A fast rundown of how a policy loan against cash value works, and exactly what an unpaid loan does to your death benefit." },
 
-  twitter: { title: "Borrowing Against Your Policy's Cash Value", description: "How a policy loan against a whole life policy's cash value works, and what an unpaid loan does to the death benefit." },
+  twitter: { title: "Policy Loans: The Fast Version", description: "A fast rundown of how a policy loan against cash value works, and exactly what an unpaid loan does to your death benefit." },
 };
 
 export default function BorrowFromPolicyPage() {
@@ -20,59 +20,50 @@ export default function BorrowFromPolicyPage() {
           <Link href="/managing-your-policy" className="hover:text-harbor">Managing Your Policy</Link> / Borrowing Against Your Policy
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Borrowing against your policy&apos;s cash value
+          Policy loans: the fast version
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Final expense policies are typically whole life insurance, which means they build cash
-          value over time in addition to the death benefit. If your policy has been in force for
-          a while, borrowing against that cash value is usually an option — but it works
-          differently from a typical bank loan, and it&apos;s worth understanding before you use
-          it.
+          Final expense policies are whole life, meaning they build cash value alongside the
+          death benefit. Once your policy's been active a while, borrowing against that value is
+          usually on the table — different rules than a bank loan, quick version below.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What you&apos;re actually borrowing against
+          What cash value actually is
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Cash value is a separate, slower-growing pool of money attached to a whole life policy —
-          it&apos;s not the same as the death benefit, and it isn&apos;t available on day one. It
-          builds gradually as you pay premiums, typically accumulating faster the longer the
-          policy has been active. You can only borrow up to whatever cash value has actually
-          accumulated, not the full face amount of the policy, so a policy that&apos;s only been
-          in force a short time may not have much — or anything — to borrow against yet.
+          A separate pool that builds slowly inside your whole life policy — not the death
+          benefit, and not available day one. It grows as premiums get paid, faster the longer
+          the policy's been active. You can only borrow what's actually built up, not the full
+          coverage amount, so a newer policy might have little or nothing to draw on yet.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How the loan itself works
+          How the loan works
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Because you&apos;re borrowing against money that&apos;s already yours, a policy loan
-          generally doesn&apos;t involve a credit check or approval process the way a bank loan
-          does. Interest accrues on the amount you borrow, at a rate and under terms set by your
-          carrier, and there&apos;s typically no fixed monthly repayment schedule — you can often
-          repay on your own timeline, or not at all. That flexibility is convenient, but it comes
-          with a real tradeoff covered below.
+          You're borrowing against money that's already yours, so there's typically no credit
+          check, no approval process. Interest accrues at your carrier's set rate, and there's
+          usually no fixed repayment schedule — pay it back on your timeline, or don't. Flexible,
+          but with one real tradeoff.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What an unpaid loan does to your policy
+          What an unpaid loan costs you
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Any loan balance, plus accrued interest, is generally subtracted from the death benefit
-          when a claim is eventually paid — so an unpaid loan directly reduces what your
-          beneficiary receives. If the loan and interest are left to grow long enough that the
-          balance catches up to the policy&apos;s total cash value, the policy can lapse entirely,
-          ending coverage altogether. That risk is the main reason to treat a policy loan
-          seriously rather than as free money.
+          Any balance plus accrued interest gets subtracted from the death benefit when a claim
+          finally pays — so an unpaid loan directly shrinks what your beneficiary gets. Let it
+          grow enough to catch up with total cash value, and the policy can lapse entirely,
+          ending coverage. Treat it seriously, not as free money.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">Before you borrow</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Ask your carrier for your current cash value, the loan&apos;s interest rate, how
-            interest accrues over time, and exactly how an unpaid balance would affect your death
-            benefit if you never repaid it. Your policy&apos;s most recent in-force illustration
-            or annual statement is usually the fastest way to see real numbers for your policy.
+            Ask your carrier: current cash value, interest rate, how interest accrues, and exactly
+            what an unpaid balance does to your death benefit long-term. Your latest in-force
+            illustration or annual statement has the real numbers, fast.
           </p>
         </div>
 

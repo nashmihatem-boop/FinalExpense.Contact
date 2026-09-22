@@ -3,15 +3,15 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Can You Be Denied Final Expense Insurance?",
-  description: "What actually causes a decline on a final expense application, and how comparing carriers fast tells you what your options are if it happens.",
+  title: "Can You Be Denied? Final Expense Insurance Fast Facts",
+  description: "Fast facts on what actually triggers a decline on a final expense application, and the options if it happens.",
   openGraph: {
-    title: "Can You Be Denied Final Expense Insurance?",
-    description: "What actually causes a decline on a final expense application, and how comparing carriers fast tells you what your options are if it happens.",
+    title: "Can You Be Denied? Final Expense Insurance Fast Facts",
+    description: "Fast facts on what actually triggers a decline on a final expense application, and the options if it happens.",
   },
   twitter: {
-    title: "Can You Be Denied Final Expense Insurance?",
-    description: "What actually causes a decline on a final expense application, and how comparing carriers fast tells you what your options are if it happens.",
+    title: "Can You Be Denied? Final Expense Insurance Fast Facts",
+    description: "Fast facts on what actually triggers a decline on a final expense application, and the options if it happens.",
   },
 };
 
@@ -26,53 +26,45 @@ export default function CanYouBeDeniedPage() {
           Can you be denied final expense insurance?
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          On a simplified-issue application, yes — a specific carrier can decline you. What that
-          doesn&apos;t mean is that you&apos;re out of options entirely. Here&apos;s what
-          actually causes a decline, and the fastest way to find your next step if it happens to
-          you.
+          Simplified issue: yes, a single carrier can decline you. That doesn't mean you're out of
+          options. Here's what actually triggers a decline, and what to do next.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What actually causes a decline
+          What triggers a decline
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Most declines come down to a small set of &quot;knockout&quot; questions — conditions
-          serious enough that a carrier won&apos;t offer a simplified-issue policy at all, no
-          matter how the rest of your health looks. Common examples include currently being on
-          oxygen for a lung condition, active cancer treatment, a terminal diagnosis or hospice
-          care, dialysis, a recent organ transplant, or residing in a nursing home. A mismatch
-          between your health answers and your prescription or medical records can also lead to a
-          decline, which is exactly why answering honestly matters more than trying to present a
-          cleaner picture than reality.
+          Most declines trace to a small set of "knockout" questions — conditions serious enough
+          that a carrier won't offer simplified issue at all, regardless of everything else.
+          Common triggers: current oxygen for a lung condition, active cancer treatment, terminal
+          diagnosis or hospice care, dialysis, recent organ transplant, nursing-home residency. A
+          mismatch between your answers and your medical or prescription records is another common
+          trigger — one more reason to answer honestly rather than optimistically.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          A decline isn&apos;t the end of the road
+          A decline isn't final
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Two things are true at once: a decline from one carrier can happen, and it almost never
-          means coverage is out of reach entirely. Carriers set their own rules, so a condition
-          that knocks you out at one company can still qualify at another — comparing a few at
-          once is the fastest way to find out which. And guaranteed acceptance exists specifically
-          as a backstop — it skips health questions altogether and takes applicants within the
-          eligible age range regardless of health history, in exchange for a two-year waiting
-          period on natural-cause death.
+          Both true at once: a decline can happen, and it almost never closes off coverage
+          entirely. Carriers set independent rules — a knockout at one company can still qualify
+          at another. Guaranteed acceptance is the built-in backstop: no health questions, takes
+          any eligible age, in exchange for a 2-year wait on natural-cause death.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What to do if you&apos;ve been declined
+          If you've been declined
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Avoid reapplying blind to a string of carriers — a decline can be recorded in a shared
-          industry database and may work against you on a future application. Instead, comparing
-          options through an independent agent who knows which carriers are more lenient toward
-          your specific situation is the faster, more direct path, or moving straight to a
-          guaranteed-acceptance policy if a knockout condition applies to you.
+          Don't blind-apply to a string of carriers — declines can land in a shared industry
+          database and work against you later. Better move: an independent agent who knows which
+          carriers go easier on your specific situation, or jump straight to guaranteed acceptance
+          if a knockout condition applies.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/pre-existing-conditions" className="font-semibold text-harbor-mid hover:underline">
