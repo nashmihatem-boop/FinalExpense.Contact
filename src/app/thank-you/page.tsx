@@ -18,8 +18,8 @@ export default function ThankYouPage() {
       </h1>
       <p className="mt-4 max-w-md text-lg leading-relaxed text-charcoal/75">
         A licensed agent will call you at the number you provided with your
-        options lined up side by side. In the meantime, keep an eye on your
-        email for a copy of what you submitted.
+        options lined up side by side. We&apos;re also sending a copy of what
+        you submitted straight to your inbox.
       </p>
       <p className="mt-3 max-w-md text-base text-charcoal/60">
         Need to compare sooner? Call us directly.

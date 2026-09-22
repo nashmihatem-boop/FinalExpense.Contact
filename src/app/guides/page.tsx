@@ -144,16 +144,16 @@ export default function GuidesPage() {
           Every guide, in one place — skim fast, compare faster
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-charcoal/80">
-          Final expense insurance touches a lot of decisions beyond just picking a coverage
-          amount. Browse by topic below, or jump straight to{" "}
+          There&apos;s more riding on this than the number on the policy. Scan the topics
+          below at your own pace, or skip the browsing entirely — head straight for{" "}
           <Link href="/coverage-by-state" className="text-harbor-mid underline">
             Coverage by State
           </Link>{" "}
-          and{" "}
+          or{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
             Pre-Existing Conditions
           </Link>{" "}
-          to get to your specific situation quickly.
+          if that&apos;s what brought you here.
         </p>
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
