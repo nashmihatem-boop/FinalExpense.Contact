@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Final Expense vs. Term Life Insurance",
+  title: "Final Expense vs. Term Life Insurance: Fast Comparison",
   description:
-    "A fast, side-by-side look at how final expense insurance and term life insurance actually differ — underwriting, coverage length, what each is built to pay for, and how to decide.",
-  openGraph: { title: "Final Expense vs. Term Life Insurance", description: "A fast, side-by-side look at how final expense insurance and term life insurance actually differ — underwriting, coverage length, what each is built to pay for, and how to decide." },
+    "Both pay a death benefit, built for different jobs. Fast breakdown of underwriting, coverage length, and what each actually pays for.",
+  openGraph: { title: "Final Expense vs. Term Life Insurance: Fast Comparison", description: "Both pay a death benefit, built for different jobs. Fast breakdown of underwriting, coverage length, and what each actually pays for." },
 
-  twitter: { title: "Final Expense vs. Term Life Insurance", description: "A fast, side-by-side look at how final expense insurance and term life insurance actually differ — underwriting, coverage length, what each is built to pay for, and how to decide." },
+  twitter: { title: "Final Expense vs. Term Life Insurance: Fast Comparison", description: "Both pay a death benefit, built for different jobs. Fast breakdown of underwriting, coverage length, and what each actually pays for." },
 };
 
 export default function FinalExpenseVsTermLifePage() {
@@ -19,102 +19,86 @@ export default function FinalExpenseVsTermLifePage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Final Expense vs. Term Life
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance vs. term life insurance
+          Final expense vs. term life insurance: fast comparison
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Both are life insurance, both pay a death benefit, and both get shopped for at the same
-          moment — when someone starts thinking seriously about what happens to the people they
-          leave behind. Past that, they&apos;re built for genuinely different jobs. Here&apos;s a
-          fast, side-by-side look at what actually separates them.
+          Both life insurance, both pay a death benefit, both get shopped at the same trigger
+          moment — thinking seriously about who you leave behind. Past that: different jobs
+          entirely. Here's the real split.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The core difference: temporary protection vs. lifetime coverage
+          Core split: temporary vs. permanent
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Term life insurance covers you for a fixed window — commonly a term like 10, 20, or 30
-          years — and if you outlive it, the coverage simply ends. Final expense insurance is a
-          form of whole life insurance, which means it&apos;s built to last for your entire life,
-          with no end date, as long as premiums are paid. That single distinction — temporary vs.
-          permanent — is what drives almost every other difference between them.
+          Term life: fixed window — 10, 20, 30 years typical. Outlive it, coverage ends. Final
+          expense: whole life structure — no end date, lasts your whole life as long as premiums
+          are paid. That single split (temporary vs. permanent) drives almost every other
+          difference below.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Underwriting: why final expense is usually easier to qualify for
+          Underwriting: why final expense is easier to qualify for
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Term life is frequently underwritten in more depth, especially at higher coverage
-          amounts — often including a medical exam, bloodwork, and a longer list of health
-          questions, since the insurer is pricing a much larger financial risk over a long, fixed
-          period. Final expense insurance is typically simplified-issue: a short set of health
-          questions, no exam. That&apos;s not a loophole, it&apos;s the trade-off for a smaller
-          coverage amount and, often, an older applicant pool. If health history is a concern, our{" "}
+          Term life: deeper underwriting at higher amounts — exam, bloodwork, longer health
+          questionnaire, since the carrier is pricing bigger risk over a long fixed term. Final
+          expense: simplified issue — short health questions, no exam. Not a loophole — tradeoff
+          for smaller coverage and an older applicant pool. Health concerns?{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
-            guide to pre-existing conditions
+            Pre-existing conditions guide
           </Link>{" "}
-          covers how final expense underwriting typically treats specific conditions.
+          covers how final expense treats specific conditions.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What each one is actually built to pay for
+          What each one actually pays for
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Term life is usually sized around a specific, larger financial gap — replacing years of
-          income for dependents, paying off a mortgage, or covering the cost of raising children to
-          adulthood. The coverage amount is typically calculated backward from that need. Final
-          expense insurance is sized around a much narrower, more predictable job: funeral, burial
-          or cremation costs, and any final medical or credit card bills. Because that need is
-          smaller and doesn&apos;t change much with income or dependents, the coverage amount tends
-          to be simpler to decide on.
+          Term life: sized around a large, specific gap — years of income replacement, mortgage
+          payoff, raising kids to adulthood. Amount calculated backward from that need. Final
+          expense: narrower, predictable job — funeral/burial/cremation costs plus lingering
+          medical or credit bills. Smaller, steadier need means an easier number to land on.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What happens when a term policy ends
+          What happens when term ends
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          This is where a lot of people get caught off guard. When a term policy&apos;s level
-          period ends, one of two things typically happens: the policy simply expires with nothing
-          paid out, or it renews on a year-to-year basis at a sharply higher premium, since pricing
-          at renewal reflects your age at that point rather than your age when you first applied.
-          Final expense insurance doesn&apos;t have this cliff — the premium locked in at approval
-          stays the same for life, and the policy never expires on its own as long as it&apos;s
-          paid.
+          Catches people off guard. Level period ends: policy expires with nothing paid, or
+          renews year-to-year at a much higher premium (renewal pricing uses your current age, not
+          your original age). Final expense skips this cliff entirely — premium locked at approval
+          stays fixed for life, policy never expires on its own while paid.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why final expense exists for the ages term often leaves behind
+          Why final expense fills the gap term leaves
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Term life becomes harder to obtain, and often significantly more expensive, as
-          applicants get older — some carriers stop offering new term policies above a certain age
-          entirely. That gap is a large part of why final expense insurance exists as its own
-          category: it&apos;s specifically designed for the stage of life where term either
-          isn&apos;t available anymore or no longer makes financial sense, and where the actual
-          remaining need — covering final costs rather than replacing decades of income — is much
-          smaller anyway.
+          Term gets harder and pricier with age — some carriers cut off new term policies past a
+          certain age entirely. That gap is exactly why final expense exists as its own category:
+          built for the stage where term isn't available or doesn't pencil out anymore, and where
+          the real remaining need (final costs, not decades of income) is much smaller anyway.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Deciding which one fits — or using both, at different stages
+          Picking one — or using both, at different stages
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          These aren&apos;t always competing choices. Many people carry term life during their
-          working years — while a mortgage, income, or growing family creates a large, temporary
-          need — and then let it expire once those obligations are gone, picking up a final
-          expense policy later specifically for end-of-life costs. If you&apos;re weighing this for
-          yourself right now, the fast starting question is simple: are you protecting
-          dependents against losing years of your income, or are you making sure your own final
-          costs don&apos;t land on your family? The first points toward term life; the second is
-          exactly what our{" "}
+          Not always either/or. Common pattern: term during working years (mortgage, income,
+          growing family = large temporary need), let it lapse once those obligations end, add
+          final expense later for end-of-life costs specifically. Deciding now? Simple test:
+          protecting dependents from lost income, or making sure your own final costs don't land on
+          family? First → term life. Second → exactly what our{" "}
           <Link href="/final-expense-insurance" className="text-harbor-mid underline">
             final expense insurance guide
           </Link>{" "}
-          walks through in full.
+          covers in full.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance" className="font-semibold text-harbor-mid hover:underline">

@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Can You Buy Final Expense Insurance Online?",
+  title: "Buying Final Expense Insurance Online: What Actually Happens",
   description:
-    "What comparing quotes online actually involves for final expense insurance, and why a phone call with a licensed agent is still part of the process.",
-  openGraph: { title: "Can You Buy Final Expense Insurance Online?", description: "What comparing quotes online actually involves for final expense insurance, and why a phone call with a licensed agent is still part of the process." },
+    "Fast breakdown of what an online quote does, why a phone call with a licensed agent is still required, and what to expect after you submit.",
+  openGraph: { title: "Buying Final Expense Insurance Online: What Actually Happens", description: "Fast breakdown of what an online quote does, why a phone call with a licensed agent is still required, and what to expect after you submit." },
 
-  twitter: { title: "Can You Buy Final Expense Insurance Online?", description: "What comparing quotes online actually involves for final expense insurance, and why a phone call with a licensed agent is still part of the process." },
+  twitter: { title: "Buying Final Expense Insurance Online: What Actually Happens", description: "Fast breakdown of what an online quote does, why a phone call with a licensed agent is still required, and what to expect after you submit." },
 };
 
 export default function BuyOnlinePage() {
@@ -19,68 +19,60 @@ export default function BuyOnlinePage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Buying Online
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What &quot;comparing quotes online&quot; actually means
+          Buying final expense insurance online: what actually happens
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Sites like this one let you start the process from your phone or computer, and
-          that&apos;s genuinely useful — but it helps to know exactly what that step does, and
-          what still happens the old-fashioned way, before you begin.
+          Start from your phone, no calls needed upfront — real convenience. But know what that
+          step does, and doesn't do, before you begin.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What an online quote actually does
+          What an online form actually does
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Filling out a form like ours collects the basics — your age, a general sense of your
-          health, your state, the coverage amount you&apos;re considering, and how to reach you.
-          That information gets matched against carrier eligibility criteria so the options you
-          hear about are realistic ones, not a generic list. It&apos;s a genuine head start
-          compared to cold-calling one company at a time, but it&apos;s the beginning of the
-          process, not the end of it.
+          Collects the basics: age, general health, state, target coverage amount, contact info.
+          Matched against carrier eligibility criteria — so what you see next is realistic, not a
+          generic list. Faster than cold-calling carriers one by one. Start of the process, not
+          the end.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why a phone call is still part of the process
+          Why a call still happens
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Simplified-issue underwriting requires actually answering a specific set of health
-          questions, and getting those answers right matters. A licensed agent asking them live
-          can catch details a static web form can&apos;t — an exact diagnosis date, whether a
-          medication was for a one-time issue, or a follow-up question a form would never think to
-          ask — which protects you from an answer being recorded in a way that could cause a
-          problem for a claim later. In most states, a licensed agent is also required to actually
-          bind and issue the policy. For this particular product, no online tool fully replaces
-          that step.
+          Simplified issue requires actually answering specific health questions — getting them
+          right matters. A live agent catches things a static form can't: exact diagnosis dates,
+          whether a med was one-time, a natural follow-up question a form never thinks to ask.
+          Protects against an answer being recorded wrong and biting later. Most states also
+          require a licensed agent to bind/issue the policy. No online tool replaces this step for
+          this product.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What online tools are genuinely good for
+          What online tools are actually good for
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Comparing potential options across multiple carriers quickly, narrowing down which
-          carriers are worth pursuing before you ever pick up the phone, and starting on your own
-          schedule instead of waiting for business hours — that&apos;s where online tools
-          genuinely speed things up. Think of it as doing the legwork in advance, so the call that
-          follows is shorter and more useful.
+          Fast multi-carrier comparison. Narrowing which carriers are worth a call before you make
+          one. Starting on your schedule, not business hours. Prep work that shortens and improves
+          the eventual call.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What happens after you submit a quote request
+          After you submit
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A licensed agent follows up to review your answers, confirm the details, and walk
-          through real, personalized options rather than a generic estimate. There&apos;s no cost
-          to get this information and no obligation to move forward on that call — you&apos;re
-          free to hear the numbers and decide later, or not at all.
+          Licensed agent follows up, reviews your answers, confirms details, walks through real
+          personalized options — not a generic estimate. No cost, no obligation on that call. Hear
+          the numbers, decide later or never.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance/biggest-mistakes" className="font-semibold text-harbor-mid hover:underline">
-              Before you apply: common mistakes to avoid →
+              Before you apply: mistakes to avoid →
             </Link>
           </p>
           <p className="mt-2 text-sm text-charcoal/60">

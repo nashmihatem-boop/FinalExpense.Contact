@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance and Cremation Costs",
+  title: "Cremation Coverage Under Final Expense Insurance: Fast Facts",
   description:
-    "How a final expense policy's cash benefit works if your family chooses cremation, and how it differs from a prepaid cremation plan.",
-  openGraph: { title: "Final Expense Insurance and Cremation Costs", description: "How a final expense policy's cash benefit works if your family chooses cremation, and how it differs from a prepaid cremation plan." },
+    "Fast facts on how the cash benefit applies to cremation, and how it differs from a prepaid cremation plan.",
+  openGraph: { title: "Cremation Coverage Under Final Expense Insurance: Fast Facts", description: "Fast facts on how the cash benefit applies to cremation, and how it differs from a prepaid cremation plan." },
 
-  twitter: { title: "Final Expense Insurance and Cremation Costs", description: "How a final expense policy's cash benefit works if your family chooses cremation, and how it differs from a prepaid cremation plan." },
+  twitter: { title: "Cremation Coverage Under Final Expense Insurance: Fast Facts", description: "Fast facts on how the cash benefit applies to cremation, and how it differs from a prepaid cremation plan." },
 };
 
 export default function CremationCoveragePage() {
@@ -19,70 +19,59 @@ export default function CremationCoveragePage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Cremation Coverage
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Does final expense insurance cover cremation?
+          Cremation coverage under final expense insurance: fast facts
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Yes, in the sense that matters most: the cash benefit your policy pays out can be used
-          for cremation. But it helps to understand exactly how that works, because final expense
-          insurance isn&apos;t a &quot;cremation-only&quot; product, and it works differently from
-          a prepaid cremation plan.
+          Yes — the cash payout applies to cremation. Not a cremation-only product though, and it
+          works differently from a prepaid cremation plan. Here's the breakdown.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How the benefit actually works
+          How the payout actually works
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A final expense policy pays a cash death benefit directly to whoever you name as your
-          beneficiary — not to a funeral home, cremation provider, or any other business. Your
-          beneficiary decides how to use it: cremation, a memorial gathering, remaining medical
-          bills, or anything else that comes up. Nothing in the policy ties the payout to
-          cremation specifically. It&apos;s simply money your family can direct however the
-          moment calls for.
+          Cash death benefit goes to your named beneficiary directly — never to a funeral home or
+          cremation provider. Beneficiary decides use: cremation, a memorial gathering, medical
+          bills, whatever comes up. No cremation-specific restriction — pure flexible cash.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How this differs from a prepaid cremation plan
+          Vs. a prepaid cremation plan
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A prepaid cremation plan, often sold directly by a funeral home or cremation provider,
-          locks in a specific service and provider in advance. That can work well for someone who
-          already knows exactly what they want and where. But it&apos;s typically harder to
-          transfer or redirect if you move, change your mind, or your family ends up needing
-          something different when the time actually comes. A final expense policy&apos;s cash
-          benefit isn&apos;t tied to any one business, so it stays flexible no matter what your
-          family ultimately decides.
+          Prepaid plan: locks in one provider, one service, arranged in advance. Works fine if you
+          already know exactly what you want. Harder to transfer if you move, change your mind, or
+          circumstances shift by the time it's needed. Final expense cash isn't tied to any
+          business — stays flexible no matter what.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Choosing a coverage amount if cremation is the plan
+          Sizing coverage for a cremation plan
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Cremation is generally a less expensive final arrangement than a traditional burial, but
-          costs still vary widely by region, provider, and whether a memorial service, urn, or
-          gathering is included. Rather than guessing at a figure, it helps to think through what
-          you actually want first — direct cremation alone, or cremation with a service attached —
-          then compare coverage amounts with a licensed agent to land on one that reasonably fits
-          the plan.
+          Cremation generally costs less than traditional burial — but real costs swing by region,
+          provider, and add-ons (service, urn, gathering). Don't guess a number: decide what you
+          actually want first (direct cremation, or cremation plus service), then work with a
+          licensed agent to size coverage to match.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Combining both isn&apos;t unusual
+          Combining both is common
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Some people already have a prepaid cremation arrangement and still choose final expense
-          insurance specifically to cover what the prepaid plan doesn&apos;t touch — outstanding
-          medical bills, other debts, or extra support for family. The two aren&apos;t competing
-          products. One locks in a specific service; the other provides flexible cash your family
-          can point at whatever actually needs it.
+          Plenty of people already have a prepaid cremation plan and still add final expense
+          insurance — specifically for what the prepaid plan doesn't touch: medical bills, other
+          debts, extra family support. Not competing products. One locks a service; one gives
+          flexible cash for whatever actually comes up.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance/is-it-worth-it" className="font-semibold text-harbor-mid hover:underline">
-              Still deciding? An honest look at whether it&apos;s worth it →
+              Still deciding? Honest breakdown of whether it's worth it →
             </Link>
           </p>
           <p className="mt-2 text-sm text-charcoal/60">

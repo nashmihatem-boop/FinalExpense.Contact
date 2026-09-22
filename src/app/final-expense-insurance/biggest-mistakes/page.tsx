@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { PolicyTypesTable } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "Biggest Mistakes Shopping for Final Expense Insurance",
+  title: "4 Mistakes That Cost You Money on Final Expense Insurance",
   description:
-    "Common, avoidable mistakes people make when comparing final expense insurance, from stopping at one carrier to letting a policy lapse.",
-  openGraph: { title: "Biggest Mistakes Shopping for Final Expense Insurance", description: "Common, avoidable mistakes people make when comparing final expense insurance, from stopping at one carrier to letting a policy lapse." },
+    "4 avoidable mistakes people make shopping for final expense insurance — single-quote shopping, wrong policy type, dishonest disclosures, lapse risk.",
+  openGraph: { title: "4 Mistakes That Cost You Money on Final Expense Insurance", description: "4 avoidable mistakes people make shopping for final expense insurance — single-quote shopping, wrong policy type, dishonest disclosures, lapse risk." },
 
-  twitter: { title: "Biggest Mistakes Shopping for Final Expense Insurance", description: "Common, avoidable mistakes people make when comparing final expense insurance, from stopping at one carrier to letting a policy lapse." },
+  twitter: { title: "4 Mistakes That Cost You Money on Final Expense Insurance", description: "4 avoidable mistakes people make shopping for final expense insurance — single-quote shopping, wrong policy type, dishonest disclosures, lapse risk." },
 };
 
 export default function BiggestMistakesPage() {
@@ -20,73 +20,65 @@ export default function BiggestMistakesPage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Biggest Mistakes
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          The biggest mistakes people make shopping for final expense insurance
+          4 mistakes that cost you money on final expense insurance
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Most of these are avoidable with a little awareness upfront. None of them are
-          complicated once you know to look out for them — here are four that come up again and
-          again.
+          All four are 100% avoidable once you know to watch for them. None require expertise —
+          just awareness.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Getting only one quote
+          Mistake 1: one quote, done
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Stopping at the first carrier or agent you talk to, instead of comparing, is the most
-          common mistake on this list. Carriers set their own health questions, their own
-          look-back periods, and their own pricing — the same person can get a meaningfully
-          different answer from one company to the next.{" "}
+          The single most common error. Every carrier runs its own health questions, its own
+          look-back window, its own pricing — same person, meaningfully different answer at a
+          second company.{" "}
           <Link href="/pre-existing-conditions#why-carriers-differ" className="text-harbor-mid underline">
-            See why the same condition can get different answers from different carriers
+            Same condition, different carriers, different outcomes
           </Link>{" "}
-          before settling on the first offer you hear.
+          — check before treating your first quote as your only option.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Buying guaranteed issue when simplified issue was available
+          Mistake 2: guaranteed issue when simplified was on the table
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Guaranteed issue skips health questions entirely, but it costs more for the same
-          coverage and comes with a waiting period. Some people default to it out of assumption,
-          or because it&apos;s what they were offered first, without ever comparing whether
-          they&apos;d actually qualify for simplified issue instead — which is typically cheaper
-          and starts full coverage on day one.
+          Guaranteed issue skips health questions — costs more for the same coverage, plus a
+          waiting period. People default to it by assumption, or because it's what got pitched
+          first, without ever checking if simplified issue (cheaper, day-one coverage) was
+          actually available.
         </p>
         <PolicyTypesTable />
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Not disclosing health information accurately
+          Mistake 3: fudging health disclosures
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Understating or leaving out a condition to get a better rate, or to avoid a decline, can
-          feel tempting in the moment — but it risks a real problem later. If a claim is filed
-          during the contestability period, the early stretch of the policy when an insurer can
-          still review your original answers against your medical and prescription records, a
-          mismatch can lead to a denied claim or a reduced payout at the exact moment your family
-          needs the money most. Answering honestly the first time protects the coverage you&apos;re
-          paying for.
+          Downplaying a condition for a better rate feels harmless in the moment. It isn't. File a
+          claim during the contestability period — when a carrier can still check your original
+          answers against medical/prescription records — and a mismatch means denial or reduced
+          payout, right when your family needs the money most. Honest answers upfront protect the
+          coverage you're paying for.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Letting a policy lapse over a missed payment
+          Mistake 4: one missed payment, panic
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A single missed premium doesn&apos;t have to mean losing coverage. Policies include a
-          grace period — a set window, commonly around 30 days, though it varies by carrier and
-          state — after a missed due date to catch up before the policy actually lapses. The real
-          mistake isn&apos;t missing a payment occasionally; it&apos;s assuming the policy is
-          already gone and not contacting the carrier or agent in time to fix it. Keeping payment
-          information current, and reaching out right away if a payment fails, protects coverage
-          you&apos;ve already been paying for.
+          A missed premium doesn't automatically kill coverage. Every policy has a grace period —
+          commonly ~30 days, varies by carrier and state — to catch up before an actual lapse. The
+          real mistake: assuming coverage is already gone instead of calling the carrier or agent
+          in time. Keep payment info current, act fast on any failure.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance/buy-online" className="font-semibold text-harbor-mid hover:underline">
-              What actually happens after you get a quote →
+              What happens after you get a quote →
             </Link>
           </p>
           <p className="mt-2 text-sm text-charcoal/60">
