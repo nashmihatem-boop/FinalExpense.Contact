@@ -4,12 +4,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance in Your 50s",
+  title: "Final Expense Insurance in Your 50s: Fast Facts",
   description:
-    "Why your 50s are often the easiest decade to qualify for final expense insurance, and how comparing a locked-in rate now stacks up against waiting.",
-  openGraph: { title: "Final Expense Insurance in Your 50s", description: "Why your 50s are often the easiest decade to qualify for final expense insurance, and how comparing a locked-in rate now stacks up against waiting." },
+    "Fast facts on why your 50s are often the easiest decade to qualify, and why locking a rate now beats waiting.",
+  openGraph: { title: "Final Expense Insurance in Your 50s: Fast Facts", description: "Fast facts on why your 50s are often the easiest decade to qualify, and why locking a rate now beats waiting." },
 
-  twitter: { title: "Final Expense Insurance in Your 50s", description: "Why your 50s are often the easiest decade to qualify for final expense insurance, and how comparing a locked-in rate now stacks up against waiting." },
+  twitter: { title: "Final Expense Insurance in Your 50s: Fast Facts", description: "Fast facts on why your 50s are often the easiest decade to qualify, and why locking a rate now beats waiting." },
 };
 
 export default function FinalExpenseInsuranceInYour50sPage() {
@@ -20,7 +20,7 @@ export default function FinalExpenseInsuranceInYour50sPage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Your 50s
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance in your 50s
+          Final expense insurance in your 50s: fast facts
         </h1>
         <div className="relative mt-8 aspect-[16/7] overflow-hidden rounded-2xl">
           <Image
@@ -32,75 +32,64 @@ export default function FinalExpenseInsuranceInYour50sPage() {
           />
         </div>
         <p className="mt-8 text-lg leading-relaxed text-charcoal/80">
-          Fifty is younger than a lot of people picture when they think about final expense
-          insurance — but it&apos;s one of the more common ages to first compare options, and
-          often the easiest decade to get approved at the best rate a carrier offers. Here&apos;s
-          what&apos;s actually different about comparing now instead of waiting.
+          Younger than most people expect for this coverage — but a common first-look age, and
+          usually the easiest decade to lock the best available rate. Here's what applying now
+          vs. later actually changes.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The advantage of applying before health issues stack up
+          The edge of applying before health issues stack up
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          In your 50s, you&apos;re statistically less likely to be managing the kind of chronic,
-          ongoing health issues that complicate an application later on — several daily
-          prescriptions, a recent hospital stay, a condition still being actively treated. Fewer
-          of the &quot;knockout&quot; questions on a simplified-issue application are likely to
-          apply to you, which means a better chance of landing level, day-one coverage at a
-          carrier&apos;s best available rate for your age. That&apos;s not a guarantee — health
-          varies person to person at every age — but as a decade, the 50s tend to be the
-          friendliest stretch for the outcome most people actually want.
+          Statistically lower odds of managing chronic, ongoing conditions at this age — multiple
+          daily meds, a recent hospital stay, active treatment. Fewer "knockout" questions likely
+          apply, better odds of level, day-one coverage at the best rate for your age. Not a
+          guarantee — health varies person to person — but as a decade, your 50s trend friendliest
+          for the outcome most people actually want.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          A rate you lock in now doesn&apos;t go up later
+          A locked-in rate doesn't move later
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Final expense policies are whole life insurance: once you&apos;re approved, your
-          premium is fixed for the life of the policy. It doesn&apos;t rise as you age, and it
-          isn&apos;t reviewed or repriced down the road. In practice, that means the age you are
-          on the day you apply sets your rate permanently — so comparing options in your 50s locks
-          in a lower starting point than comparing the same coverage later would, and that gap
-          holds for as long as you keep the policy. We won&apos;t put a number on it, since it
-          depends on your health, your state, and the carrier — but the direction is consistent:
-          earlier costs less for the same coverage, all else being equal.
+          Final expense policies: whole life insurance. Approved once, premium fixed for the
+          policy's life — never climbs with age, never repriced. Practical result: your age at
+          application sets your rate permanently. Applying at 50 locks a lower starting point than
+          the same coverage later, and that gap holds for as long as you keep the policy. No fixed
+          number here — depends on health, state, carrier — but direction is constant: earlier
+          costs less, all else equal.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What still affects your application at this age
+          What still moves your price here
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Some people in their 50s are already managing something like high blood pressure, early
-          type 2 diabetes, or a family history a carrier asks about — none of which is unusual,
-          and none of which automatically rules out a strong rate. If something applies to you,
-          our{" "}
+          Some in their 50s already manage blood pressure, early type 2 diabetes, or a family
+          history carriers ask about — normal, not disqualifying. Applies to you? Our{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
             pre-existing conditions guide
           </Link>{" "}
-          walks through how carriers typically treat common conditions and where they tend to
-          land. Tobacco use is also weighed at every age, including this one, and generally moves
-          your cost more than any single well-managed health condition does.
+          breaks down how carriers treat common conditions and where they land. Tobacco: weighed
+          at every age, moves cost more than any single well-managed condition.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Is your 50s too early to bother?
+          Too early to bother at 50?
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          It&apos;s a fair question, since a lot of people associate this coverage with
-          retirement age. The honest answer is that there&apos;s no minimum age where it starts
-          making sense — it comes down to whether you already have savings set aside for final
-          costs, and whether you want to make sure that expense never lands on your family,
-          regardless of how old you are today. If you&apos;re weighing whether this is the right
-          move for you specifically, our{" "}
+          Fair question — most people associate this with retirement age. Real answer: no minimum
+          age where it "starts making sense." Comes down to whether savings already cover final
+          costs, and whether you want that expense off your family's plate regardless of your
+          current age. Weighing it?{" "}
           <Link href="/final-expense-insurance/is-it-worth-it" className="text-harbor-mid underline">
-            honest look at who it&apos;s worth it for
+            Honest breakdown of who it's worth it for
           </Link>{" "}
           covers both sides.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance-in-your-60s" className="font-semibold text-harbor-mid hover:underline">

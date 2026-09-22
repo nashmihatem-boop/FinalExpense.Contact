@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button";
 import { PolicyTypesTable } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance in Your 80s",
+  title: "Final Expense Insurance in Your 80s: Fast Facts",
   description:
-    "You likely haven't aged out. What to know about comparing final expense insurance in your 80s, including when guaranteed issue makes sense.",
-  openGraph: { title: "Final Expense Insurance in Your 80s", description: "You likely haven't aged out. What to know about comparing final expense insurance in your 80s, including when guaranteed issue makes sense." },
+    "You probably haven't aged out. Fast facts on applying in your 80s, including when guaranteed issue makes sense.",
+  openGraph: { title: "Final Expense Insurance in Your 80s: Fast Facts", description: "You probably haven't aged out. Fast facts on applying in your 80s, including when guaranteed issue makes sense." },
 
-  twitter: { title: "Final Expense Insurance in Your 80s", description: "You likely haven't aged out. What to know about comparing final expense insurance in your 80s, including when guaranteed issue makes sense." },
+  twitter: { title: "Final Expense Insurance in Your 80s: Fast Facts", description: "You probably haven't aged out. Fast facts on applying in your 80s, including when guaranteed issue makes sense." },
 };
 
 export default function FinalExpenseInsuranceInYour80sPage() {
@@ -21,7 +21,7 @@ export default function FinalExpenseInsuranceInYour80sPage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Your 80s
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance in your 80s
+          Final expense insurance in your 80s: fast facts
         </h1>
         <div className="relative mt-8 aspect-[16/7] overflow-hidden rounded-2xl">
           <Image
@@ -33,69 +33,61 @@ export default function FinalExpenseInsuranceInYour80sPage() {
           />
         </div>
         <p className="mt-8 text-lg leading-relaxed text-charcoal/80">
-          A lot of people in their 80s assume they&apos;ve missed the window entirely. In most
-          cases, that isn&apos;t true — final expense insurance remains genuinely available at
-          this age, just with a couple of things worth comparing upfront.
+          Most people in their 80s assume they've missed the window. Usually false — coverage
+          remains genuinely available, with a couple of things to know upfront.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          You likely haven&apos;t aged out
+          You probably haven't aged out
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Most carriers continue offering final expense coverage well into the 80s. The exact
-          maximum issue age is set by each carrier individually and varies from one company to
-          the next, so rather than assuming you&apos;re past the cutoff, it&apos;s worth actually
-          comparing — &quot;too old&quot; is a myth more often than it&apos;s a fact at this
-          stage.
+          Most carriers still offer coverage well into the 80s. Max issue age is carrier-specific
+          and varies — check actual limits instead of assuming you're past them. "Too old" is a
+          myth more often than fact at this stage.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Guaranteed issue becomes a more common path
+          Guaranteed issue gets more common
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          As health histories lengthen, more applicants in their 80s end up better suited to
-          guaranteed acceptance — the option that skips health questions entirely and accepts
-          anyone within the eligible age range, in exchange for a two-year waiting period on
-          natural-cause death. It&apos;s not the only option at this age, but it&apos;s a more
-          commonly used one than it was a decade or two earlier.
+          Longer health histories push more 80s applicants toward guaranteed acceptance — no
+          health questions, any eligible age accepted, 2-year wait on natural-cause death in
+          return. Not the only path here, just more common than a decade or two back.
         </p>
         <PolicyTypesTable />
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Worth comparing simplified issue first
+          Check simplified issue first
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Guaranteed issue isn&apos;t automatically the right starting point just because of age.
-          Plenty of people in their 80s are in good enough health to still qualify for simplified
-          issue, which costs less for the same coverage and skips the waiting period entirely.
-          It&apos;s worth having your health answers actually reviewed before assuming guaranteed
-          issue is your only option — see our{" "}
+          Age alone doesn't mean guaranteed issue is your default. Plenty of 80s applicants qualify
+          simplified issue — cheaper for the same coverage, no waiting period. Get your health
+          answers actually reviewed before assuming guaranteed issue is your only path. Related:{" "}
           <Link href="/final-expense-insurance/biggest-mistakes" className="text-harbor-mid underline">
-            rundown of common shopping mistakes
+            common shopping mistakes
           </Link>{" "}
-          for more on this exact trap.
+          covers this exact trap.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What coverage amount to think about at this stage
+          Coverage amount at this stage
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Priorities often narrow to the essentials at this age — funeral, burial, or cremation
-          costs, and making sure adult children aren&apos;t left covering the balance. If
-          cremation is part of the plan, see{" "}
+          Priorities usually narrow: funeral/burial/cremation costs, keeping adult kids from
+          covering the gap. Cremation planned?{" "}
           <Link href="/final-expense-insurance/cremation-coverage" className="text-harbor-mid underline">
-            how final expense insurance works alongside cremation
+            How final expense works with cremation
           </Link>{" "}
-          for what the benefit does and doesn&apos;t cover.
+          covers what's included.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance/is-it-worth-it" className="font-semibold text-harbor-mid hover:underline">
-              Still deciding? An honest look at whether it&apos;s worth it →
+              Still deciding? Honest breakdown of whether it's worth it →
             </Link>
           </p>
           <p className="mt-2 text-sm text-charcoal/60">
