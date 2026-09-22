@@ -38,10 +38,9 @@ export default async function Image() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 18 }}>
-          <svg width="56" height="56" viewBox="0 0 48 48" fill="none">
-            <path d="M4 32 Q24 6 44 32" stroke="#eef7f0" strokeWidth="2.75" strokeLinecap="round" />
-            <line x1="4" y1="34.5" x2="44" y2="34.5" stroke="#6fae7c" strokeWidth="2.75" strokeLinecap="round" />
-            <circle cx="24" cy="18.7" r="3.4" fill="#bd7813" />
+          <svg width="56" height="56" viewBox="0 0 32 32" fill="none">
+            <path d="M11 8 L19 16 L11 24" stroke="#eef7f0" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M18 8 L26 16 L18 24" stroke="#bd7813" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
           <div style={{ display: "flex", fontSize: 34, fontWeight: 700, color: "#ffffff" }}>
             FinalExpense<span style={{ color: "#bd7813" }}>.contact</span>

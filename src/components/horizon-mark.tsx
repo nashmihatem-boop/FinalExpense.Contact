@@ -2,7 +2,7 @@ type HorizonMarkProps = {
   className?: string;
 };
 
-/** The site's signature mark: a sun cresting a horizon line — a new day, taken care of. */
+/** The site's signature mark: two chevrons moving forward together — comparing, then deciding, fast. */
 export function HorizonMark({ className }: HorizonMarkProps) {
   return (
     <svg
@@ -12,23 +12,21 @@ export function HorizonMark({ className }: HorizonMarkProps) {
       aria-hidden="true"
     >
       <path
-        d="M4 32 Q24 6 44 32"
+        d="M13 11 L25 24 L13 37"
         stroke="currentColor"
-        strokeWidth="2.75"
+        strokeWidth="4.6"
         strokeLinecap="round"
+        strokeLinejoin="round"
         className="text-harbor"
       />
-      <line
-        x1="4"
-        y1="34.5"
-        x2="44"
-        y2="34.5"
+      <path
+        d="M23 11 L35 24 L23 37"
         stroke="currentColor"
-        strokeWidth="2.75"
+        strokeWidth="4.6"
         strokeLinecap="round"
-        className="text-mist"
+        strokeLinejoin="round"
+        className="text-brass"
       />
-      <circle cx="24" cy="18.7" r="3.4" fill="currentColor" className="text-brass" />
     </svg>
   );
 }
