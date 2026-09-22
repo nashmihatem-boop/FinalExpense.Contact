@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/* FinalExpense.Contact palette: a warm forest green + amber-gold pairing, distinct from
+   the original site's navy/gold and from FinalExpense.support's teal/blue. Every pairing
+   actually used in the UI (body text, links, the primary CTA button and its hover state,
+   form-error text) was checked against WCAG AA (4.5:1 normal text, 3:1 large/graphical
+   text) with a relative-luminance script — see scratchpad/contrast-contact.js. The one
+   accepted exception, consistent with the original site, is the small-caps decorative
+   eyebrow label (text-brass on white and on the dark hero background), where a single
+   accent hue can't satisfy AA against both a near-white and a near-black background at
+   once; it's meaningfully closer to passing than the original site's own gold ever was. */
+:root {
+  --color-harbor: #123f2a;
+  --color-harbor-mid: #1f6b40;
+  --color-harbor-deep: #081f15;
+  --color-canvas: #ffffff;
+  --color-canvas-alt: #eef7f0;
+  --color-canvas-raised: #ffffff;
+  --color-brass: #bd7813;
+  --color-brass-dark: #b47814;
+  --color-sage: #4f9463;
+  --color-sage-dark: #3f7a52;
+  --color-charcoal: #26332b;
+  --color-mist: #d9e8de;
+  --color-clay: #b3402a;
+}
+
+@theme inline {
+  --color-harbor: var(--color-harbor);
+  --color-harbor-mid: var(--color-harbor-mid);
+  --color-harbor-deep: var(--color-harbor-deep);
+  --color-canvas: var(--color-canvas);
+  --color-canvas-alt: var(--color-canvas-alt);
+  --color-canvas-raised: var(--color-canvas-raised);
+  --color-brass: var(--color-brass);
+  --color-brass-dark: var(--color-brass-dark);
+  --color-sage: var(--color-sage);
+  --color-sage-dark: var(--color-sage-dark);
+  --color-charcoal: var(--color-charcoal);
+  --color-mist: var(--color-mist);
+  --color-clay: var(--color-clay);
+
+  --font-display: var(--font-inter);
+  --font-sans: var(--font-inter);
+
+  --animate-rise: rise 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-charcoal);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: var(--color-brass);
+  color: var(--color-harbor-deep);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brass-dark);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
