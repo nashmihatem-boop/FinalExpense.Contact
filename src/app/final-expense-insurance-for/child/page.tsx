@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance for a Child",
+  title: "Final Expense Insurance for a Child: The Honest Version",
   description:
-    "Final expense coverage for a child is a different, much smaller product than senior final expense insurance. Here's an honest, fast look at how it works.",
-  openGraph: { title: "Final Expense Insurance for a Child", description: "Final expense coverage for a child is a different, much smaller product than senior final expense insurance. Here's an honest, fast look at how it works." },
+    "The honest version: what people usually mean by final expense insurance for a child is a different, much smaller product entirely.",
+  openGraph: { title: "Final Expense Insurance for a Child: The Honest Version", description: "The honest version: what people usually mean by final expense insurance for a child is a different, much smaller product entirely." },
 
-  twitter: { title: "Final Expense Insurance for a Child", description: "Final expense coverage for a child is a different, much smaller product than senior final expense insurance. Here's an honest, fast look at how it works." },
+  twitter: { title: "Final Expense Insurance for a Child: The Honest Version", description: "The honest version: what people usually mean by final expense insurance for a child is a different, much smaller product entirely." },
 };
 
 export default function ChildPage() {
@@ -19,90 +19,78 @@ export default function ChildPage() {
           <Link href="/final-expense-insurance-for" className="hover:text-harbor">Final Expense Insurance For</Link> / Child
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance for a child
+          Final expense insurance for a child: the honest version
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          If you searched for this, it&apos;s worth being upfront, fast: what people usually mean
-          by &quot;final expense insurance for a child&quot; is a different, much smaller product
-          than the senior-focused coverage the rest of this site is built around. It&apos;s a real
-          option, but a niche one — here&apos;s an honest look at what it actually is.
+          Straight answer upfront: "final expense insurance for a child" usually means a
+          different, much smaller product than the senior coverage this site is built around.
+          Real option, niche use case. Here's the honest breakdown.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          A different, much smaller product than senior final expense coverage
+          Different product, much smaller scale
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Everywhere else on this site, &quot;final expense insurance&quot; refers to coverage
-          built for seniors — sized to handle funeral and end-of-life costs for someone later in
-          life. A policy on a child is a different category entirely, usually a small juvenile
-          whole life policy. It exists, and it&apos;s legitimate, but it&apos;s a much smaller
-          corner of the insurance world, and it serves a different purpose than the coverage the
-          rest of this site focuses on. We&apos;d rather say that plainly than stretch our usual
-          content to fit a situation it wasn&apos;t written for.
+          Elsewhere on this site, "final expense insurance" means senior-sized coverage for
+          funeral and end-of-life costs. A child's policy is a separate category entirely — a
+          small juvenile whole life product. Legitimate, but a niche corner of the market serving
+          a different purpose. Straight talk beats stretching our usual content to fit a case it
+          wasn't built for.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why some parents consider it anyway
+          Why parents consider it anyway
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The honest reason usually isn&apos;t about expecting the worst — a child&apos;s death is
-          thankfully rare, and most parents know that. The appeal is mostly about optionality. A
-          small whole life policy taken out on a child locks in insurability for life: whatever
-          health conditions might develop later, the coverage already in place isn&apos;t
-          affected, and it&apos;s often possible to convert or grow it into a larger adult policy
-          down the line without new health questions. It also locks in a low premium permanently,
-          since cost is tied to the age you start. Some families also treat it as a small, slow
-          savings vehicle, since whole life coverage builds some cash value over time. Covering an
-          actual funeral cost is rarely the main motivation — it&apos;s usually further down the
-          list than the other two reasons.
+          Not usually about expecting the worst — child mortality is thankfully rare, and parents
+          know it. Real appeal: optionality. A small whole life policy locks in insurability for
+          life — future health conditions don't touch existing coverage, and converting to a
+          larger adult policy later often skips new health questions. Locks in a low premium
+          permanently too, since cost ties to starting age. Some treat it as a slow savings
+          vehicle — whole life builds cash value. Actual funeral-cost coverage: usually the least
+          important reason of the three.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How it works differently for a child
+          How it works differently
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Since a minor can&apos;t enter into a contract, a parent or legal guardian is the
-          applicant and owner by default, with the child as the insured. Underwriting tends to be
-          light — often little more than a short health form, since children are, statistically,
-          about as low-risk as an applicant gets. Coverage amounts are typically modest, in
-          keeping with the policy&apos;s purpose. Exact terms, minimum ages, and how conversion
-          options work all vary by carrier, so it&apos;s worth comparing a couple of them directly
-          rather than assuming they&apos;re interchangeable.
+          Minors can't contract themselves — parent or guardian is applicant/owner by default,
+          child is insured. Underwriting: light, often just a short health form (kids are
+          statistically the lowest-risk applicants). Coverage amounts: modest, matching the
+          product's purpose. Terms, minimum ages, conversion rules vary by carrier — talk to an
+          agent for specifics.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Things worth weighing before you buy
+          Worth weighing first
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Because the likelihood of ever using the death benefit is thankfully very low, it&apos;s
-          worth being clear-eyed about what you&apos;re actually buying: mostly locked-in future
-          insurability and a small amount of lifelong coverage, not a product designed around
-          probability the way senior final expense insurance is. That&apos;s not a reason to avoid
-          it — plenty of families find real value in it — but it&apos;s a different value than the
-          coverage the rest of this site describes, and it&apos;s worth choosing it for the right
-          reason rather than out of a sense that every family &quot;needs&quot; one.
+          Death-benefit usage is thankfully unlikely, so be clear on what you're really buying:
+          locked-in future insurability plus a small amount of lifelong coverage — not a
+          probability-based product like senior final expense. Not a reason to skip it — plenty of
+          families find real value — just a different value than what the rest of this site
+          covers. Pick it for the right reason, not because every family "needs" one.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Looking for coverage for yourself or a parent instead?
+          Actually looking for coverage for yourself or a parent?
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          If you landed here but you&apos;re actually trying to cover funeral or final costs for
-          yourself or an aging family member, that&apos;s the coverage the rest of this site
-          focuses on. Our{" "}
+          Wrong page, easy fix. Our{" "}
           <Link href="/final-expense-insurance" className="text-harbor-mid underline">
             final expense insurance guide
           </Link>{" "}
-          is the right place to start, or see the guide for{" "}
+          is the right start, or go straight to{" "}
           <Link href="/final-expense-insurance-for/parents" className="text-harbor-mid underline">
-            comparing coverage for a parent
-          </Link>{" "}
-          specifically.
+            coverage for a parent
+          </Link>
+          .
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance-for" className="font-semibold text-harbor-mid hover:underline">
