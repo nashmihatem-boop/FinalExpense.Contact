@@ -4,30 +4,30 @@ import { Button } from "@/components/ui/button";
 import { US_STATES } from "@/lib/us-states";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance by State",
+  title: "Final Expense Insurance by State: Fast Lookup",
   description:
-    "Final expense insurance is regulated state by state. Pick your state to compare how coverage works where you live and get a fast, free quote.",
-  openGraph: { title: "Final Expense Insurance by State", description: "Final expense insurance is regulated state by state. Pick your state to compare how coverage works where you live and get a fast, free quote." },
+    "Final expense insurance is regulated state by state. Pick your state for the fast version of how coverage works, and get a quote.",
+  openGraph: { title: "Final Expense Insurance by State: Fast Lookup", description: "Final expense insurance is regulated state by state. Pick your state for the fast version of how coverage works, and get a quote." },
 
-  twitter: { title: "Final Expense Insurance by State", description: "Final expense insurance is regulated state by state. Pick your state to compare how coverage works where you live and get a fast, free quote." },
+  twitter: { title: "Final Expense Insurance by State: Fast Lookup", description: "Final expense insurance is regulated state by state. Pick your state for the fast version of how coverage works, and get a quote." },
 };
 
 const FAQS = [
   {
-    q: "Does final expense insurance cost more in some states?",
-    a: "Insurance is regulated at the state level, so not every carrier or plan is available everywhere — but within your state, your premium is driven mainly by your age, gender, tobacco use, health, and the coverage amount you choose, not by your ZIP code.",
+    q: "Costs more in some states?",
+    a: "State-regulated, so available carriers/plans shift by location. Within your state though, price comes down to age, gender, tobacco use, health, coverage amount — not ZIP code.",
   },
   {
-    q: "Will my policy still cover me if I move?",
-    a: "Yes. Final expense insurance is a whole life policy tied to you, not your address. Once it's in force, your coverage and premium stay the same no matter which state you move to later.",
+    q: "Move states — policy still valid?",
+    a: "Yes. Whole life policy, tied to you, not an address. Once active, coverage and premium stay identical regardless of where you move.",
   },
   {
-    q: "What's the difference between final expense and burial insurance?",
-    a: "Nothing — they're different names for the same thing. “Burial insurance,” “funeral insurance,” and “final expense insurance” all describe the same small whole life policy built to cover end-of-life costs.",
+    q: "Final expense vs. burial insurance — different?",
+    a: "Same product, different names. \"Burial insurance,\" \"funeral insurance,\" \"final expense insurance\" — all the same small whole life policy for end-of-life costs.",
   },
   {
-    q: "Do I need to talk to an agent licensed in my specific state?",
-    a: "Yes — agents have to be licensed in the state where you live to sell you a policy there. When you request a quote, we match you with an agent and carriers actually licensed to do business in your state.",
+    q: "Agent needs my state's license specifically?",
+    a: "Yes — agents must be licensed in your specific state to sell there. Request a quote, we match you with an agent and carriers actually licensed in your state.",
   },
 ];
 
@@ -37,11 +37,10 @@ export default function CoverageByStatePage() {
       <section className="bg-gradient-to-r from-harbor-deep via-harbor to-harbor-deep">
         <div className="mx-auto max-w-3xl px-5 py-16 text-center sm:px-8 sm:py-20">
           <h1 className="font-display text-3xl font-extrabold text-canvas sm:text-4xl">
-            Final expense insurance by state
+            Final expense insurance by state: fast lookup
           </h1>
           <p className="mt-4 text-lg text-canvas/75">
-            Coverage, carriers, and licensing all work state by state. Pick yours below to
-            compare your options fast.
+            Coverage, carriers, licensing — all state-specific. Pick yours below.
           </p>
           <div className="mt-8 flex justify-center">
             <Button as="link" href="/get-quote" size="lg">
@@ -54,18 +53,18 @@ export default function CoverageByStatePage() {
       <div className="mx-auto max-w-5xl px-5 py-16 sm:px-8 sm:py-20">
         <div className="rounded-2xl border border-mist bg-canvas-alt p-7">
           <p className="text-base leading-relaxed text-charcoal/80">
-            FinalExpense.Contact helps people across the country compare final expense and burial
-            insurance from multiple licensed carriers, fast. Select your state below to see what
-            to expect and get matched with an agent licensed to help where you live.
+            FinalExpense.contact compares final expense and burial insurance across multiple
+            licensed carriers nationwide. Pick your state below, see what to expect, get matched
+            with a licensed local agent.
           </p>
           <p className="mt-3 text-sm leading-relaxed text-charcoal/60">
-            We&apos;re an independent agency, not a single insurance company — so you see real
-            options across carriers, side by side, with no obligation to enroll.
+            Independent agency, not one carrier — real cross-carrier options, zero pressure to
+            enroll.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Select your state
+          Pick your state
         </h2>
         <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
           {US_STATES.map((s) => (
@@ -83,7 +82,7 @@ export default function CoverageByStatePage() {
         </div>
 
         <h2 className="mt-16 font-display text-2xl font-extrabold text-harbor">
-          Frequently asked questions
+          FAQ
         </h2>
         <div className="mt-6 space-y-3">
           {FAQS.map((item) => (
