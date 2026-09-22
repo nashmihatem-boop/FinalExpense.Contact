@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "What Is a Beneficiary?",
+  title: "What Is a Beneficiary? Fast Answer",
   description:
-    "A fast look at who can be named a life insurance beneficiary, the difference between primary and contingent beneficiaries, and why keeping this information current matters.",
-  openGraph: { title: "What Is a Beneficiary?", description: "A fast look at who can be named a life insurance beneficiary, the difference between primary and contingent beneficiaries, and why keeping this information current matters." },
+    "Fast rundown: who can be a life insurance beneficiary, primary vs. contingent, and why updating it matters.",
+  openGraph: { title: "What Is a Beneficiary? Fast Answer", description: "Fast rundown: who can be a life insurance beneficiary, primary vs. contingent, and why updating it matters." },
 
-  twitter: { title: "What Is a Beneficiary?", description: "A fast look at who can be named a life insurance beneficiary, the difference between primary and contingent beneficiaries, and why keeping this information current matters." },
+  twitter: { title: "What Is a Beneficiary? Fast Answer", description: "Fast rundown: who can be a life insurance beneficiary, primary vs. contingent, and why updating it matters." },
 };
 
 export default function WhatIsABeneficiaryPage() {
@@ -15,71 +15,58 @@ export default function WhatIsABeneficiaryPage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What is a beneficiary?
+          What is a beneficiary? Fast answer
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          A beneficiary is the person, people, or entity you name on your life insurance policy to
-          receive the death benefit when you pass away. Naming a beneficiary is one of the
-          simplest parts of comparing and applying for coverage, but it&apos;s also one of the
-          most important — it determines exactly who your policy is actually going to help.
+          Whoever you name to receive your policy&apos;s death benefit. Naming one is the easiest
+          step in applying — and one of the most important, since it decides exactly who your
+          coverage actually helps.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Who can be a beneficiary
+          Who you can name
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Most people name an individual — a spouse, adult child, or another family member — but
-          that&apos;s not the only option. You can name more than one person and specify what
-          percentage of the death benefit each one receives, so the payout doesn&apos;t have to be
-          split evenly if that&apos;s not what you want. You can also name a trust as your
-          beneficiary, which is common when there are more specific instructions for how the money
-          should be managed or distributed, or you can name your estate — though that typically
-          means the money passes through probate before it reaches anyone, which usually defeats
-          the purpose of naming a person directly.
+          Usually someone close: spouse, adult child, other family. Not the only option though.
+          Name multiple people, set exact percentage splits — doesn&apos;t have to be even. Name a
+          trust for more specific control over distribution. Name your own estate — technically
+          allowed, but it routes through probate first, which usually defeats the point.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Primary vs. contingent beneficiaries
+          Primary vs. contingent
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A primary beneficiary is first in line to receive the death benefit. A contingent — or
-          backup — beneficiary only receives it if every primary beneficiary is unable to, most
-          often because they&apos;ve also passed away. Naming a contingent beneficiary isn&apos;t
-          required, but it closes an important gap: without one, a death benefit that can&apos;t
-          reach any named primary beneficiary typically defaults to your estate, which usually
-          means the delay and cost of probate before your family sees any of it.
+          Primary means first in line. Contingent means backup, only paid if every primary
+          can&apos;t receive it (usually because they&apos;ve also died). Contingent isn&apos;t
+          required, but skip it and you leave a gap — no valid beneficiary means the benefit
+          defaults to your estate, plus probate delay and cost.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why keeping this updated matters
+          Why updating it actually matters
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A beneficiary designation doesn&apos;t update itself when life changes. A marriage, a
-          divorce, the birth of a child, or the death of a previously named beneficiary can all
-          leave a policy pointing at the wrong person — or at no one at all — if it&apos;s never
-          revisited. Insurers generally pay out exactly according to what&apos;s on file,
-          regardless of what a will says or what your family assumes you would have wanted, which
-          is why it&apos;s worth checking your beneficiary designation any time a major life event
-          happens, not just when the policy is first issued. Updating it is usually a fast
-          request to your insurance company or agent, and it doesn&apos;t require rewriting the
-          policy itself.
+          Doesn&apos;t update itself. Marriage, divorce, a new kid, a beneficiary who&apos;s since
+          passed — any of these can leave a policy pointed at the wrong person, or nobody. Insurers
+          pay exactly what&apos;s on file, not what a will says or what family assumes. Check it
+          after every major life event, not just at signup. Updating it is usually a quick request
+          to your insurer or agent — no policy rewrite needed.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Beneficiaries on a final expense policy
+          Final expense policies specifically
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          On a final expense policy, the beneficiary is usually the person expected to actually
-          handle arrangements and costs after a death — often a spouse or adult child, though it
-          doesn&apos;t have to be the same person named in a will or serving as executor. Naming
-          that person specifically, rather than defaulting to &quot;my estate,&quot; is what allows
-          the payout to reach them quickly and directly, without waiting on the broader estate
-          process to conclude.
+          The beneficiary is usually whoever actually handles arrangements and pays costs after a
+          death — often spouse or adult child, doesn&apos;t have to match the will&apos;s
+          executor. Name that person directly instead of &quot;my estate,&quot; and the payout
+          reaches them fast, no waiting on the broader estate process.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
         </div>
       </div>

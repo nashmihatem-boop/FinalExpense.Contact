@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "What Is a Death Benefit?",
+  title: "What Is a Death Benefit? Fast Answer",
   description:
-    "A fast look at what a life insurance death benefit is, how it's paid, whether it's taxable, and what it can actually be used for.",
-  openGraph: { title: "What Is a Death Benefit?", description: "A fast look at what a life insurance death benefit is, how it's paid, whether it's taxable, and what it can actually be used for." },
+    "Fast answer: what a death benefit is, how it's paid, whether it's taxed, and what it can be used for.",
+  openGraph: { title: "What Is a Death Benefit? Fast Answer", description: "Fast answer: what a death benefit is, how it's paid, whether it's taxed, and what it can be used for." },
 
-  twitter: { title: "What Is a Death Benefit?", description: "A fast look at what a life insurance death benefit is, how it's paid, whether it's taxable, and what it can actually be used for." },
+  twitter: { title: "What Is a Death Benefit? Fast Answer", description: "Fast answer: what a death benefit is, how it's paid, whether it's taxed, and what it can be used for." },
 };
 
 export default function WhatIsADeathBenefitPage() {
@@ -16,71 +16,61 @@ export default function WhatIsADeathBenefitPage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What is a death benefit?
+          What is a death benefit? Fast answer
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          A death benefit is the amount a life insurance company pays to your named beneficiary
-          after you pass away. It&apos;s the entire purpose of a life insurance policy —
-          everything else about the policy exists to define when, how much, and under what
-          conditions this payment happens.
+          The amount your insurer pays your named beneficiary after you die. It&apos;s the entire
+          point of the policy — everything else just defines when, how much, and under what
+          conditions.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How a death benefit is paid
+          How it&apos;s paid
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Most death benefits are paid as a single lump sum, sent directly to the beneficiary once
-          the claim is filed and approved. Some policies also offer alternative payout structures
-          — installments paid out over a set period instead of all at once, for example — though a
-          lump sum remains the most common and straightforward option, and the one most final
-          expense policies are built around.
+          Usually one lump sum, straight to the beneficiary once a claim is filed and approved.
+          Some policies offer installment payouts instead. Lump sum stays the default — and
+          it&apos;s what most final expense policies are built around.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Is a death benefit taxable?
+          Taxed?
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Generally, no — life insurance death benefits are typically received income-tax-free by
-          the beneficiary. This is one of the more consistent features of life insurance as a
-          financial product. That said, tax situations can get more complex depending on how a
-          policy is owned or structured, and specific circumstances vary, so it&apos;s worth
-          confirming your particular situation with a tax professional rather than assuming every
-          scenario works identically.
+          Generally no. Death benefits typically arrive income-tax-free. One of the more reliable
+          features of life insurance overall. Ownership structure can complicate specific cases
+          though — confirm your situation with a tax pro rather than assume.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What the money can actually be used for
+          What it can be used for
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A death benefit isn&apos;t restricted to any specific purpose. Unlike a prepaid funeral
-          plan, which is generally locked into services from a specific funeral provider, a life
-          insurance death benefit is paid directly to your beneficiary as cash, with no requirement
-          about how it&apos;s spent. Many families do use it to cover a funeral or burial, but it
-          can just as easily go toward medical bills, everyday living expenses, debt, or anything
-          else the family needs at the time.
+          No restrictions. Unlike a prepaid funeral plan (locked to one provider&apos;s services),
+          this pays out as cash, directly, no strings attached. Funeral costs are common, but
+          medical bills, everyday expenses, and debt are all fair game too.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How the amount is decided
+          How the amount gets set
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The death benefit amount isn&apos;t set by the insurance company — it&apos;s chosen by
-          the applicant at the time of purchase, based on what they&apos;re trying to cover. For a
-          policy meant to handle end-of-life costs specifically, that&apos;s usually a more modest
-          amount than a policy meant to replace years of income. See{" "}
+          Not decided by the insurer — decided by you, at purchase, based on what you&apos;re
+          covering. End-of-life-only coverage means a smaller amount. Income replacement means a
+          bigger one. See{" "}
           <Link href="/final-expense-insurance" className="font-semibold text-harbor-mid hover:underline">
             how final expense insurance works
           </Link>{" "}
-          for more on choosing a coverage amount, and{" "}
+          for picking a coverage amount, and{" "}
           <Link href="/what-is-a-beneficiary" className="font-semibold text-harbor-mid hover:underline">
             what is a beneficiary
           </Link>{" "}
-          for who can actually receive this payment.
+          for who can actually receive it.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
         </div>
       </div>

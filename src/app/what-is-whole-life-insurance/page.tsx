@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "What Is Whole Life Insurance?",
+  title: "What Is Whole Life Insurance? Fast Explainer",
   description:
-    "A fast, foundational explainer: permanent coverage for your entire life, level premiums that never increase, a guaranteed death benefit, and built-in cash value.",
-  openGraph: { title: "What Is Whole Life Insurance?", description: "A fast, foundational explainer: permanent coverage for your entire life, level premiums that never increase, a guaranteed death benefit, and built-in cash value." },
+    "Fast explainer: permanent coverage, premiums that never rise, a guaranteed death benefit, and built-in cash value.",
+  openGraph: { title: "What Is Whole Life Insurance? Fast Explainer", description: "Fast explainer: permanent coverage, premiums that never rise, a guaranteed death benefit, and built-in cash value." },
 
-  twitter: { title: "What Is Whole Life Insurance?", description: "A fast, foundational explainer: permanent coverage for your entire life, level premiums that never increase, a guaranteed death benefit, and built-in cash value." },
+  twitter: { title: "What Is Whole Life Insurance? Fast Explainer", description: "Fast explainer: permanent coverage, premiums that never rise, a guaranteed death benefit, and built-in cash value." },
 };
 
 export default function WhatIsWholeLifeInsurancePage() {
@@ -16,82 +16,72 @@ export default function WhatIsWholeLifeInsurancePage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What is whole life insurance?
+          What is whole life insurance? Fast explainer
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Whole life insurance is a type of permanent life insurance — coverage designed to last
-          for your entire life, rather than expiring after a set number of years the way term
-          insurance does. In exchange for a level premium, it guarantees a death benefit for as
-          long as the policy stays in force, and it builds cash value along the way.
+          A type of permanent life insurance — lasts your whole life, not a fixed term like term
+          insurance. Level premium in exchange for a guaranteed death benefit, plus cash value
+          building along the way.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Coverage that lasts your whole life
+          Coverage that doesn&apos;t expire
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The defining feature is right in the name. As long as premiums are paid, a whole life
-          policy doesn&apos;t expire at the end of a term and doesn&apos;t require renewal or
-          re-qualification later in life. It stays in force for as long as you live, which is
-          precisely why it&apos;s the structure used for coverage meant to be there whenever
-          it&apos;s eventually needed, rather than coverage meant to protect a specific stretch of
-          years like a mortgage term or a child&apos;s upbringing.
+          The name says it all. As long as premiums are paid, the policy stays active — no term end
+          date, no renewal, no requalifying later. It runs for your entire life, the right
+          structure for coverage meant to sit ready whenever it&apos;s needed, not just protect one
+          stretch of years like a mortgage.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Level premiums that don&apos;t increase
+          Premium locked at issue
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Your premium is set when the policy is issued and stays the same for the life of the
-          policy — it doesn&apos;t rise as you get older, even though your risk of death naturally
-          increases with age. That&apos;s possible because the insurer prices the policy using
-          your age at issue and spreads the cost evenly over time, rather than charging more each
-          year the way some other insurance products do. The result is a payment that&apos;s
-          predictable for as long as you own the policy.
+          The quoted rate at issue is the rate for life. It doesn&apos;t climb with age, even though
+          mortality risk does. Works because the insurer prices off your age at issue and spreads
+          cost evenly over time instead of raising it yearly. Result: a payment you can actually
+          budget around.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Cash value that builds over time
+          Cash value, building in the background
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Part of every whole life premium goes toward a cash value component that accumulates on
-          a guaranteed schedule set out in the policy. This cash value is a savings-like feature
-          built into the contract — depending on the policy, it may be accessible while
-          you&apos;re still living, though tapping it can reduce the death benefit if it
-          isn&apos;t repaid. It&apos;s a genuine feature of the product, but it&apos;s a secondary
-          one for most people who buy a smaller policy — the primary purpose is still the
-          guaranteed death benefit.
+          Part of every premium funds a cash value piece, growing on a guaranteed schedule written
+          into the policy. It's a savings-like feature, built in — some policies let you access it
+          while alive, though borrowing against it can shrink the death benefit if unpaid. Real
+          feature, but secondary for most smaller policies — the guaranteed death benefit is still
+          the main point.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          A guaranteed death benefit
+          A guaranteed payout
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          As long as the policy remains in force, the death benefit is guaranteed — a fixed amount
-          your beneficiary receives, set when you bought the policy and not subject to change
-          based on investment performance or market conditions. That guarantee is the central
-          reason people choose whole life over other permanent options: it&apos;s not the amount
-          you might get, it&apos;s the amount you will get.
+          While the policy's active, the death benefit is locked — a fixed amount, set at purchase,
+          that doesn't move with markets or investment returns. That guarantee is the whole reason
+          people pick whole life over other permanent options: not what you might get, what you
+          will get.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Final expense insurance: a smaller, specific type of whole life
+          Where final expense insurance fits in
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Final expense insurance isn&apos;t a separate category from whole life insurance — it is
-          whole life insurance, just sized and underwritten for a specific purpose: covering
-          end-of-life costs rather than replacing decades of income. It typically comes in smaller
-          coverage amounts, uses simpler underwriting, and is easier to qualify for than a large
-          whole life policy, while keeping the same core guarantees — a level premium and a
-          guaranteed death benefit. See{" "}
+          Not a separate category — final expense insurance is whole life insurance, just scoped
+          for one job: end-of-life costs, not decades of income replacement. Smaller face amounts,
+          simpler underwriting, easier to qualify for, same core guarantees (level premium,
+          guaranteed payout). See{" "}
           <Link href="/final-expense-insurance" className="font-semibold text-harbor-mid hover:underline">
             how final expense insurance works
           </Link>{" "}
-          for the details specific to that product.
+          for specifics.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
         </div>
       </div>
