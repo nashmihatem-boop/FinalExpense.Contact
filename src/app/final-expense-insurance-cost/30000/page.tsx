@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { CostFactorsGrid } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "$30,000 Final Expense Insurance Cost",
+  title: "$30,000 Final Expense Insurance Cost: Fast Facts",
   description:
-    "What a $30,000 final expense policy commonly covers, who tends to choose it, and what actually drives the price.",
-  openGraph: { title: "$30,000 Final Expense Insurance Cost", description: "What a $30,000 final expense policy commonly covers, who tends to choose it, and what actually drives the price." },
+    "Fast facts on the $30,000 buffer tier — what it covers, who picks it, what sets the price.",
+  openGraph: { title: "$30,000 Final Expense Insurance Cost: Fast Facts", description: "Fast facts on the $30,000 buffer tier — what it covers, who picks it, what sets the price." },
 
-  twitter: { title: "$30,000 Final Expense Insurance Cost", description: "What a $30,000 final expense policy commonly covers, who tends to choose it, and what actually drives the price." },
+  twitter: { title: "$30,000 Final Expense Insurance Cost: Fast Facts", description: "Fast facts on the $30,000 buffer tier — what it covers, who picks it, what sets the price." },
 };
 
 export default function ThirtyThousandCostPage() {
@@ -20,66 +20,59 @@ export default function ThirtyThousandCostPage() {
           <Link href="/final-expense-insurance-cost" className="hover:text-harbor">Cost by Coverage Amount</Link> / $30,000
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How much does a $30,000 final expense policy cost?
+          $30,000 final expense insurance cost: fast facts
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          $30,000 is a comfortable buffer tier — generally enough to fund a full traditional
-          funeral without tight choices, and still leave a meaningful amount behind. As with every
-          amount on this site, the actual premium depends on you, not a number we can post here.
+          The buffer tier — full traditional funeral funded, no tight tradeoffs, real amount left
+          over. Price: still individual, same as every tier.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">
-            The fast, honest answer
+            Short answer
           </p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            There&apos;s no standard rate for $30,000 in coverage — it depends on you. What&apos;s
-            consistent is the role this amount plays: full funeral costs covered comfortably, with
-            a real amount left over.
+            No standard rate for $30,000 — priced individually. Consistent role: full funeral,
+            comfortably, plus real leftover.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What $30,000 is typically meant to cover
+          What $30,000 covers
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          $30,000 generally funds a full traditional funeral and burial without needing to
-          economize on the service, casket, or plot, plus a real cushion afterward — often enough
-          to make a genuine dent in outstanding debt, whether that&apos;s medical bills, credit
-          cards, or a car loan, rather than just covering the small incidental costs around a
-          service.
+          Full traditional funeral and burial without economizing on service, casket, or plot —
+          plus real cushion for outstanding debt: medical bills, credit cards, a car loan. Goes
+          well past just the small costs around the service.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Who tends to choose this amount
+          Who picks this tier
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          $30,000 tends to appeal to people carrying more significant debt that they specifically
-          don&apos;t want passed informally to a spouse or adult child, people who compared{" "}
+          People carrying real debt they don't want passed to a spouse or adult child. People who
+          compared{" "}
           <Link href="/final-expense-insurance-cost/20000" className="text-harbor-mid underline">
             $20,000
           </Link>{" "}
-          but wanted less pressure on which casket, service, or plot they choose, and people
-          who&apos;d otherwise be juggling two smaller policies and would rather consolidate into
-          one.
+          and wanted less pressure on casket/service/plot choices. People who'd otherwise juggle
+          two smaller policies and want one instead.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What actually determines your price at $30,000
+          What sets your price at $30,000
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A larger amount doesn&apos;t mean a different pricing method — $30,000 is still priced
-          on the same factors as any other tier:
+          Bigger number, same pricing rules:
         </p>
         <CostFactorsGrid />
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A fast, free quote is the only way to see what $30,000 in coverage actually costs for
-          you, with no obligation to apply.
+          Free quote: the only way to see your real $30,000 cost, no obligation.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance-cost" className="font-semibold text-harbor-mid hover:underline">
