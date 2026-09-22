@@ -4,12 +4,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Life Insurance Glossary",
+  title: "Life Insurance Terms: Fast Glossary",
   description:
-    "Fast, plain-language definitions for the life insurance terms used across this site, from beneficiary and death benefit to lapse and look-back period.",
-  openGraph: { title: "Life Insurance Glossary", description: "Fast, plain-language definitions for the life insurance terms used across this site, from beneficiary and death benefit to lapse and look-back period." },
+    "Fast, plain-language definitions for the life insurance terms used across this site — beneficiary, death benefit, lapse, look-back period, and more.",
+  openGraph: { title: "Life Insurance Terms: Fast Glossary", description: "Fast, plain-language definitions for the life insurance terms used across this site — beneficiary, death benefit, lapse, look-back period, and more." },
 
-  twitter: { title: "Life Insurance Glossary", description: "Fast, plain-language definitions for the life insurance terms used across this site, from beneficiary and death benefit to lapse and look-back period." },
+  twitter: { title: "Life Insurance Terms: Fast Glossary", description: "Fast, plain-language definitions for the life insurance terms used across this site — beneficiary, death benefit, lapse, look-back period, and more." },
 };
 
 const TERMS: { term: string; definition: ReactNode }[] = [
@@ -17,9 +17,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Beneficiary",
     definition: (
       <>
-        The person, people, or entity you name to receive your policy&apos;s death benefit.
-        Most policies let you name more than one, and you can generally change your beneficiary
-        at any time while the policy is active.
+        Recipient of the death benefit — one person, several, or an organization. Update the
+        list whenever you want, as often as you want, while the policy's active.
       </>
     ),
   },
@@ -27,8 +26,7 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Death benefit",
     definition: (
       <>
-        The amount of money paid to your beneficiary after you pass away and the claim is
-        approved. This is the core purpose of a life insurance policy.
+        Cash paid out after death, once the claim clears. The entire reason the product exists.
       </>
     ),
   },
@@ -36,8 +34,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Premium",
     definition: (
       <>
-        The payment you make, usually monthly, to keep your policy in force. Miss enough
-        payments and the policy can eventually lapse.
+        Recurring payment (usually monthly) that keeps coverage active. Skip too many, coverage
+        ends.
       </>
     ),
   },
@@ -45,8 +43,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Face amount",
     definition: (
       <>
-        The stated coverage amount of a policy — the figure used to calculate the death benefit
-        before any early-period adjustments, like a graded or modified payout schedule, apply.
+        The coverage number printed on the policy — baseline for the death benefit before any
+        graded/modified adjustment kicks in.
       </>
     ),
   },
@@ -54,12 +52,12 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Cash value",
     definition: (
       <>
-        A savings-like component that builds slowly inside a whole life or final expense policy
-        while you&apos;re alive, separate from the death benefit. See our{" "}
+        Slow-building savings feature inside whole life/final expense policies, separate from the
+        death benefit, accessible while alive.{" "}
         <Link href="/cash-value-life-insurance" className="font-semibold text-harbor-mid hover:underline">
-          full explanation of cash value
-        </Link>{" "}
-        for more.
+          Full breakdown here
+        </Link>
+        .
       </>
     ),
   },
@@ -67,11 +65,10 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Simplified issue",
     definition: (
       <>
-        An application process with no medical exam — instead, you answer a short list of
-        health questions, and the carrier checks background sources like your prescription
-        history. See how{" "}
+        Skips the medical exam. Short yes/no health questionnaire instead, cross-checked against
+        prescription history in the background. Health condition in the mix?{" "}
         <Link href="/pre-existing-conditions" className="font-semibold text-harbor-mid hover:underline">
-          simplified issue works with pre-existing conditions
+          See how that's handled
         </Link>
         .
       </>
@@ -81,9 +78,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Guaranteed issue",
     definition: (
       <>
-        Also called guaranteed acceptance. An application process with no health questions and
-        no medical exam — anyone within the eligible age range is accepted, typically in
-        exchange for a waiting period on natural-cause death.
+        AKA guaranteed acceptance. Zero health questions, zero exam — eligible age range gets you
+        in, usually with a waiting period on natural-cause death attached.
       </>
     ),
   },
@@ -91,11 +87,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Level / graded / modified",
     definition: (
       <>
-        The three common payout structures for how much a policy pays if death occurs during
-        its early period. Level pays the full death benefit from day one. Graded pays a
-        partial, increasing amount during the early period. Modified returns paid premiums,
-        often with interest, during that same window. All three pay the full death benefit once
-        the early period has passed.
+        Three payout shapes for early-policy death. Level: full amount, day one. Graded: partial
+        payout that climbs yearly. Modified: premiums refunded (often plus interest) instead of a
+        benefit. All three flip to full payout once the early window closes.
       </>
     ),
   },
@@ -103,9 +97,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Contestability period",
     definition: (
       <>
-        A window, commonly the first two years a policy is in force, during which the insurer
-        can investigate and potentially contest a claim if the application contained a material
-        misrepresentation.
+        Early window, typically two years, where a carrier can dig into and challenge a claim if
+        the original application had a material lie or omission.
       </>
     ),
   },
@@ -113,8 +106,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Underwriting",
     definition: (
       <>
-        The process a carrier uses to evaluate an applicant — health questions, prescription
-        history, and other checks — to decide whether to issue a policy, and on what terms.
+        The behind-the-scenes evaluation — health answers, prescription check, related
+        verification — that decides approval and terms.
       </>
     ),
   },
@@ -122,9 +115,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Look-back period",
     definition: (
       <>
-        How far back a carrier&apos;s health questions reach when asking about a past
-        diagnosis, treatment, or hospitalization. This window varies by carrier and by the
-        specific condition being asked about.
+        How far back a carrier's questions dig for a past diagnosis, treatment, or
+        hospitalization. Not fixed — shifts by carrier and by condition.
       </>
     ),
   },
@@ -132,8 +124,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Free-look period",
     definition: (
       <>
-        A short window after your policy is delivered during which you can cancel it for any
-        reason and receive a full refund of any premiums paid.
+        Short post-delivery window to cancel for zero reason and get every dollar of premium
+        back.
       </>
     ),
   },
@@ -141,8 +133,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Grace period",
     definition: (
       <>
-        A set stretch of time after a missed premium due date during which your coverage stays
-        in force while you catch up on payment, before the policy lapses.
+        Buffer window after a missed due date — coverage keeps running while you catch up, right
+        up until an actual lapse.
       </>
     ),
   },
@@ -150,8 +142,7 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Lapse",
     definition: (
       <>
-        What happens when a policy ends because a premium went unpaid, even through the grace
-        period. Once a policy lapses, coverage stops.
+        The end result of unpaid premiums surviving even the grace period. Coverage: gone.
       </>
     ),
   },
@@ -162,12 +153,11 @@ export default function LifeInsuranceGlossaryPage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Life insurance glossary
+          Life insurance terms: fast glossary
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Final expense and life insurance come with their own vocabulary. Here&apos;s a fast,
-          plain-language reference for the terms used across this site, so nothing you read here
-          depends on jargon you haven&apos;t seen explained.
+          Every industry has its own shorthand. Quick, no-nonsense definitions for the terms used
+          throughout this site, so nothing here leaves you guessing.
         </p>
 
         <dl className="mt-10 divide-y divide-mist border-t border-mist">
@@ -181,7 +171,7 @@ export default function LifeInsuranceGlossaryPage() {
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
         </div>
       </div>

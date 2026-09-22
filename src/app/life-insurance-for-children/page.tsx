@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Life Insurance for Children, Explained",
+  title: "Life Insurance for Children: Fast Facts",
   description:
-    "A fast look at how small whole life policies and riders for children work, why families buy them, and how they differ from senior-focused final expense coverage.",
-  openGraph: { title: "Life Insurance for Children, Explained", description: "A fast look at how small whole life policies and riders for children work, why families buy them, and how they differ from senior-focused final expense coverage." },
+    "Fast facts on juvenile whole life policies and riders — how they work, why families buy them, and how they differ from senior final expense coverage.",
+  openGraph: { title: "Life Insurance for Children: Fast Facts", description: "Fast facts on juvenile whole life policies and riders — how they work, why families buy them, and how they differ from senior final expense coverage." },
 
-  twitter: { title: "Life Insurance for Children, Explained", description: "A fast look at how small whole life policies and riders for children work, why families buy them, and how they differ from senior-focused final expense coverage." },
+  twitter: { title: "Life Insurance for Children: Fast Facts", description: "Fast facts on juvenile whole life policies and riders — how they work, why families buy them, and how they differ from senior final expense coverage." },
 };
 
 export default function LifeInsuranceForChildrenPage() {
@@ -16,62 +16,52 @@ export default function LifeInsuranceForChildrenPage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Life insurance for children, explained
+          Life insurance for children: fast facts
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Life insurance for a child is a real, if niche, corner of the market — and a different
-          product from the senior-focused final expense coverage that&apos;s the main focus of
-          this site. Here&apos;s a fast rundown of what it actually is, and isn&apos;t.
+          Real, niche product — different entirely from the senior final expense coverage this
+          site mostly covers. Here's what it is and isn't.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What it typically looks like
+          Typical structure
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Coverage for a child is usually structured one of two ways: a small standalone whole
-          life policy in the child&apos;s name, or a{" "}
+          Two common setups: a small standalone whole life policy in the child's name, or a{" "}
           <Link href="/life-insurance-riders" className="font-semibold text-harbor-mid hover:underline">
             rider
           </Link>{" "}
-          attached to a parent&apos;s own policy that adds a modest amount of coverage on the
-          child. Either way, the amounts involved tend to be modest — this isn&apos;t designed
-          as a large policy, and coverage amounts are set with that in mind. Because it&apos;s
-          whole life coverage when written as its own policy, it can also begin building a
-          small amount of cash value over time, the same basic mechanism used in adult whole
-          life and final expense policies.
+          on a parent's policy adding a modest amount for the child. Amounts stay small by design —
+          never meant to be large. Standalone version: builds a bit of cash value over time, same
+          mechanism as adult whole life/final expense.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
           Why families buy it
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The reasoning usually comes down to one of two things. The first is locking in future
-          insurability — buying coverage while a child is young and healthy guarantees
-          they&apos;ll have some life insurance in place as an adult, regardless of what health
-          conditions might develop later, often with the option to convert to a larger adult
-          policy at set points without new health questions. The second is starting cash value
-          early, treating the slow, steady build of a whole life policy as a small, long-horizon
-          head start. Neither reason is about replacing income, which is the usual driver behind
-          adult life insurance — a child doesn&apos;t have dependents relying on their earnings,
-          so the purpose here is genuinely different.
+          Two main reasons. One: locking in future insurability — coverage while young and healthy
+          guarantees adult coverage later regardless of health developments, often convertible to
+          a bigger policy without new health questions. Two: early cash value start — slow,
+          steady whole life growth as a long-horizon head start. Neither is about income
+          replacement (the usual adult-insurance driver) — kids have no dependents relying on
+          their income, different purpose entirely.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How this is different from final expense insurance
+          How it differs from final expense
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Final expense insurance, the focus of the rest of this site, is built for older adults
-          and sized around a specific, near-term purpose: making sure funeral, burial, and other
-          end-of-life costs don&apos;t become a burden on family. Children&apos;s coverage is a
-          smaller, optional, long-horizon product built around a completely different life stage
-          and purpose. If a juvenile policy or rider is specifically what you&apos;re looking
-          for, it&apos;s worth comparing options with an agent directly, since it&apos;s a
-          distinct product from what most of this site is written around.
+          Final expense (this site's main focus): built for older adults, sized for a specific
+          near-term job — funeral/burial/end-of-life costs off the family's plate. Child coverage:
+          smaller, optional, long-horizon, entirely different life stage and purpose. Specifically
+          want a juvenile policy or rider? Ask an agent directly — distinct product from most of
+          this site.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
         </div>
       </div>

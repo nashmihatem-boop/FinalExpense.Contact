@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "What Is a Celebration of Life Service?",
+  title: "Celebration of Life Services: Fast Facts",
   description:
-    "A fast comparison of how a celebration of life stacks up against a traditional funeral, what it can include, and how it fits with burial or cremation plans.",
-  openGraph: { title: "What Is a Celebration of Life Service?", description: "A fast comparison of how a celebration of life stacks up against a traditional funeral, what it can include, and how it fits with burial or cremation plans." },
+    "Fast facts on how a celebration of life compares to a traditional funeral, what it includes, and how it pairs with burial or cremation.",
+  openGraph: { title: "Celebration of Life Services: Fast Facts", description: "Fast facts on how a celebration of life compares to a traditional funeral, what it includes, and how it pairs with burial or cremation." },
 
-  twitter: { title: "What Is a Celebration of Life Service?", description: "A fast comparison of how a celebration of life stacks up against a traditional funeral, what it can include, and how it fits with burial or cremation plans." },
+  twitter: { title: "Celebration of Life Services: Fast Facts", description: "Fast facts on how a celebration of life compares to a traditional funeral, what it includes, and how it pairs with burial or cremation." },
 };
 
 export default function CelebrationOfLifePage() {
@@ -15,70 +15,57 @@ export default function CelebrationOfLifePage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What is a &quot;celebration of life&quot; service?
+          Celebration of life services: fast facts
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          A celebration of life is one of the more flexible options families have when planning
-          how to honor someone who&apos;s passed — less a fixed format than an approach.
-          Here&apos;s a quick comparison of what typically sets it apart, and how it fits
-          alongside more traditional choices.
+          Not a fixed format — an approach. Most flexible option for honoring someone. Here's the
+          quick breakdown.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How it differs from a traditional funeral
+          Vs. a traditional funeral
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A traditional funeral service tends to follow a familiar structure — often religious,
-          typically formal, and usually held close to the time of burial. A celebration of life
-          is looser by design. It&apos;s generally more personalized, often less formal, and
-          built around the specific person&apos;s life and personality rather than a set order
-          of service. There&apos;s no single template for what one looks like, which is part of
-          the appeal for families who want something that feels more like the person being
-          remembered.
+          Traditional funeral: familiar structure, often religious, formal, close to burial timing.
+          Celebration of life: no set structure — personalized, casual, built around the person's
+          actual life rather than a set order of service. No template. That's the appeal for
+          families wanting something that feels like the person.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Where it fits with burial or cremation
+          Pairing with burial or cremation
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A celebration of life is frequently held separately from — and after — the disposition
-          of remains, meaning burial or cremation happens on its own, often soon after death,
-          while the memorial gathering itself is scheduled later. This is especially common
-          alongside cremation, since it removes the time pressure that traditional burial can
-          carry, giving a family room to compare dates and plan a gathering for a place that
-          actually works. That said, a celebration of life isn&apos;t exclusive to cremation — it
-          can also be paired with a burial, either instead of or alongside a more traditional
-          service.
+          Often held separately from, and after, the actual burial/cremation — disposition happens
+          soon after death, gathering scheduled later. Common with cremation specifically, since
+          it removes burial's time pressure and gives families room to pick a date/place that
+          works. Not cremation-exclusive though — pairs with burial too, replacing or alongside a
+          traditional service.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
           What it can include
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Because there&apos;s no fixed script, the format is really up to the family. Common
-          elements include sharing photos or video, playing music the person loved, and open
-          time for family and friends to speak or share memories — sometimes at a location tied
-          to the person&apos;s life, like a home, a park, or a favorite restaurant, rather than a
-          funeral home or place of worship. Some families blend in traditional elements, like a
-          religious reading or a eulogy; others skip that entirely in favor of something closer
-          to a gathering or reception.
+          No script, so it's family's call: photos, video, music the person loved, open time for
+          people to share memories — sometimes at a meaningful location (home, park, favorite
+          restaurant) instead of a funeral home. Some blend in traditional elements (reading,
+          eulogy); others skip that for something closer to a reception.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
           Why this matters for planning ahead
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Because a celebration of life is so flexible, the cost and shape of it depend heavily
-          on what a family chooses — a rented venue, catering, travel for guests, and other
-          personal touches can add up differently than a standard service would. Having funds
-          already available, through a life insurance or final expense policy, gives a family
-          room to compare options and plan the kind of service that actually fits, rather than
-          being limited to whatever is most affordable in the moment.
+          Flexible format means cost swings with choices — venue rental, catering, guest travel,
+          personal touches add up differently than a standard service. Funds already available
+          (life insurance or final expense) let a family plan the gathering that actually fits,
+          not just what's cheapest in the moment.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            Compare my options
+            See what you qualify for
           </Button>
         </div>
       </div>
