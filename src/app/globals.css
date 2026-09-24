@@ -104,3 +104,11 @@ body {
 .leadforms-submit-button:hover {
   background-color: var(--color-brass-dark) !important;
 }
+
+/* LeadForms (useleadbot.com) quote widget on /get-quote renders its field-validation checkmark
+   as a baked-in green PNG, not a CSS color, so it can't be recolored directly. This filter chain
+   was tuned against the actual icon's pixels (canvas sampling + grid search) to reproduce
+   --color-brass (#bd7813) almost exactly (achieved rgb(191,124,22), distance ~5.4). */
+.leadforms-field-status-icon-img {
+  filter: brightness(0) saturate(100%) invert(70%) sepia(90%) saturate(1400%) hue-rotate(-18deg) brightness(0.75);
+}
