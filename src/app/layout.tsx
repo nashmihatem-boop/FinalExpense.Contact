@@ -61,12 +61,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col font-sans text-charcoal">
         {/* LeadForms pixel (useleadbot.com) — powers the embedded quote form at /get-quote.
             window.form_token must be set before the pixel script itself loads. */}
-        <Script id="leadforms-token" strategy="afterInteractive">
+        <Script id="leadforms-token" strategy="beforeInteractive">
           {`window.form_token = "GLFT-0462DJP7MON8WDXBNAKOU77LT8K";`}
         </Script>
         <Script
           src="https://api.useleadbot.com/lead-bots/get-pixel-script.js"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
         <script
           type="application/ld+json"
