@@ -27,6 +27,7 @@ const LEGAL_LINKS = [
   { href: "/disclaimer", label: "Disclaimer" },
   { href: "/tcpa-consent", label: "TCPA Compliance" },
   { href: "/do-not-call", label: "Do Not Call Policy" },
+  { href: "/our-network-of-partners", label: "Our Network of Partners" },
   { href: "/do-not-call", label: "Do Not Sell My Info" },
 ];
 
