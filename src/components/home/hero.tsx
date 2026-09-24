@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { HorizonDivider } from "@/components/horizon-divider";
 import { siteConfig } from "@/lib/site-config";
+import { GetQuoteLoadingState } from "@/components/get-quote-loading-state";
 
 export function Hero() {
   return (
@@ -69,7 +70,9 @@ export function Hero() {
               without a cap the card grows with whichever step is active and the hero jumps
               around. Capping it keeps the hero's height steady; a tall step scrolls internally. */}
           <div className="max-h-[560px] overflow-y-auto rounded-2xl border border-mist bg-canvas-raised p-6 shadow-[0_12px_32px_rgba(20,43,86,0.12)] sm:p-8">
-            <div id="leadforms-embd-form" />
+            <div id="leadforms-embd-form">
+              <GetQuoteLoadingState />
+            </div>
           </div>
         </div>
       </div>
