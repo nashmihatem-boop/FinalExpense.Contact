@@ -3,7 +3,7 @@ import type { ButtonHTMLAttributes, ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
 const base =
-  "inline-flex items-center justify-center gap-2 rounded-full font-sans font-semibold transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 disabled:opacity-50 disabled:pointer-events-none";
+  "inline-flex items-center justify-center gap-2 rounded-full font-sans font-semibold whitespace-nowrap transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 disabled:opacity-50 disabled:pointer-events-none";
 
 const variants = {
   // Text color is hardcoded to finalexpense.care's harbor-deep (#0b1a38), not this site's own
@@ -20,7 +20,7 @@ const variants = {
 };
 
 const sizes = {
-  lg: "h-14 px-8 text-lg",
+  lg: "h-14 px-5 text-base sm:px-8 sm:text-lg",
   md: "h-12 px-6 text-base",
   sm: "h-10 px-4 text-sm",
 };
