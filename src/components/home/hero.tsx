@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { HorizonDivider } from "@/components/horizon-divider";
-import { HeroQuickForm } from "@/components/home/hero-quick-form";
 import { siteConfig } from "@/lib/site-config";
 
 export function Hero() {
@@ -59,8 +58,13 @@ export function Hero() {
           </dl>
         </div>
 
-        <div className="relative">
-          <HeroQuickForm />
+        {/* The LeadForms pixel (useleadbot.com), loaded site-wide in the root layout, renders
+            its widget into whichever #leadforms-embd-form container exists on the current
+            page — this is a second, independent instance from the one on /get-quote itself.
+            The old ZIP+name-only HeroQuickForm this replaced lives on, unused, in
+            src/components/home/hero-quick-form.tsx in case this needs reverting. */}
+        <div className="relative rounded-2xl border border-mist bg-canvas-raised p-6 shadow-[0_12px_32px_rgba(20,43,86,0.12)] sm:p-8">
+          <div id="leadforms-embd-form" />
         </div>
       </div>
 
