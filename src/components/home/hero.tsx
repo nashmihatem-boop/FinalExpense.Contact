@@ -18,7 +18,7 @@ export function Hero() {
           the right where the photo can show through more (the form card there is opaque anyway). */}
       <div className="absolute inset-0 bg-gradient-to-r from-harbor-deep via-harbor/92 to-harbor/55" />
 
-      <div className="relative mx-auto grid max-w-6xl gap-10 px-5 pt-16 pb-24 sm:px-8 sm:pt-20 sm:pb-32 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+      <div className="relative mx-auto grid max-w-6xl gap-10 px-5 pt-16 pb-24 sm:px-8 sm:pt-20 sm:pb-32 lg:grid-cols-[0.95fr_1.15fr] lg:items-center">
         <div className="animate-fade-up">
           <p className="font-sans text-sm font-semibold tracking-[0.14em] text-brass uppercase">
             Final Expense Insurance
@@ -63,8 +63,14 @@ export function Hero() {
             page — this is a second, independent instance from the one on /get-quote itself.
             The old ZIP+name-only HeroQuickForm this replaced lives on, unused, in
             src/components/home/hero-quick-form.tsx in case this needs reverting. */}
-        <div className="relative rounded-2xl border border-mist bg-canvas-raised p-6 shadow-[0_12px_32px_rgba(20,43,86,0.12)] sm:p-8">
-          <div id="leadforms-embd-form" />
+        <div className="relative">
+          {/* max-h + overflow-y-auto on purpose: later widget steps (longer questions, the
+              final "Thank you" screen) render far more content than the first zip/state step —
+              without a cap the card grows with whichever step is active and the hero jumps
+              around. Capping it keeps the hero's height steady; a tall step scrolls internally. */}
+          <div className="max-h-[560px] overflow-y-auto rounded-2xl border border-mist bg-canvas-raised p-6 shadow-[0_12px_32px_rgba(20,43,86,0.12)] sm:p-8">
+            <div id="leadforms-embd-form" />
+          </div>
         </div>
       </div>
 
