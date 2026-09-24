@@ -94,3 +94,13 @@ body {
   outline-offset: 2px;
   border-radius: 2px;
 }
+
+/* LeadForms (useleadbot.com) quote widget on /get-quote — match its submit button to this
+   site's own primary button color instead of the widget's default. */
+.leadforms-submit-button {
+  background-color: var(--color-brass) !important;
+  color: var(--color-harbor-deep) !important;
+}
+.leadforms-submit-button:hover {
+  background-color: var(--color-brass-dark) !important;
+}

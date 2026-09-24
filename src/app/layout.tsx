@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { siteConfig } from "@/lib/site-config";
@@ -58,6 +59,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col font-sans text-charcoal">
+        {/* LeadForms pixel (useleadbot.com) — powers the embedded quote form at /get-quote.
+            window.form_token must be set before the pixel script itself loads. */}
+        <Script id="leadforms-token" strategy="afterInteractive">
+          {`window.form_token = "GLFT-0462DJP7MON8WDXBNAKOU77LT8K";`}
+        </Script>
+        <Script
+          src="https://api.useleadbot.com/lead-bots/get-pixel-script.js"
+          strategy="afterInteractive"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
