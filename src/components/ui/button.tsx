@@ -6,7 +6,10 @@ const base =
   "inline-flex items-center justify-center gap-2 rounded-full font-sans font-semibold transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 disabled:opacity-50 disabled:pointer-events-none";
 
 const variants = {
-  primary: "bg-brass text-harbor-deep hover:bg-brass-dark active:bg-brass-dark",
+  // Text color is hardcoded to finalexpense.care's harbor-deep (#0b1a38), not this site's own
+  // --color-harbor-deep — that token is still used elsewhere (gradients, other variants) for
+  // this site's own palette, so it can't just be reassigned globally without side effects.
+  primary: "bg-brass text-[#0b1a38] hover:bg-brass-dark active:bg-brass-dark",
   harbor: "bg-harbor text-canvas hover:bg-harbor-deep active:bg-harbor-deep",
   outline: "border-2 border-harbor text-harbor hover:bg-harbor hover:text-canvas bg-transparent",
   // For use on a dark (harbor) background — kept as its own variant rather than an
