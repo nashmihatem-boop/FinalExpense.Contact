@@ -6,16 +6,19 @@ import { useEffect, useState } from "react";
 // rather than clearing it first, and on a cold cache (a visitor's first-ever load, before the
 // pixel script itself has been fetched once) that append can take a few real seconds — long
 // enough that the page looks broken/blank with nothing else here. This renders a spinner as
-// the container's only initial child, then watches for the widget's own first real field to
-// appear and hides itself the moment it does, so a slow first load never reads as an empty page.
+// the container's only initial child, then hides itself the moment the widget renders anything
+// at all, so a slow first load never reads as an empty page.
 //
-// Deliberately waits for input[name="zip-code"] (the widget's first real field, same selector
-// already proven against the live widget in get-quote-prefill.tsx) rather than just
-// .leadforms-general-wrapper appearing: the wrapper can mount before the widget has actually
-// fetched and rendered its form config from its own backend (a separate, non-cacheable request),
-// so hiding on the wrapper alone let the widget's own brief internal loading state show through
-// as a second, different-looking spinner between this one disappearing and the real form
-// appearing.
+// Deliberately hides on .leadforms-general-wrapper appearing, NOT on a specific field like
+// input[name="zip-code"]: tried waiting for the real field first, but the widget can render its
+// OWN internal loading spinner inside that wrapper while it fetches its form config from its own
+// backend (a separate, non-cacheable request) — waiting for the field meant this spinner stayed
+// up for that whole gap too, so both spinners showed at once instead of in sequence, which
+// looked worse (confirmed live: reported as visible simultaneously, not one-then-the-other).
+// Hiding on the wrapper alone means at most one spinner is ever visible at a time — briefly
+// this one, then the widget's own if it has one, never both together. The widget's own loading
+// state, if any, isn't something this component can suppress; it's outside this container's
+// control once the widget takes over rendering.
 export function GetQuoteLoadingState() {
   const [widgetLoaded, setWidgetLoaded] = useState(false);
 
@@ -24,7 +27,7 @@ export function GetQuoteLoadingState() {
     if (!container) return;
 
     function checkLoaded() {
-      if (container!.querySelector('input[name="zip-code"]')) {
+      if (container!.querySelector(".leadforms-general-wrapper")) {
         setWidgetLoaded(true);
       }
     }
