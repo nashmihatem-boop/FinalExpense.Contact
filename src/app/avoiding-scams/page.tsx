@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { SafeLink } from "@/components/safe-link";
 
 export const metadata: Metadata = {
   title: "Avoiding Final Expense Scams: A Fast Reference Guide",
@@ -55,7 +56,7 @@ export default function AvoidingScamsPage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <p className="text-sm text-charcoal/50">
-          <Link href="/" className="hover:text-harbor">Home</Link> / Avoiding Scams
+          <SafeLink href="/" className="hover:text-harbor">Home</SafeLink> / Avoiding Scams
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
           Avoiding final expense scams: a fast reference guide
@@ -116,9 +117,9 @@ export default function AvoidingScamsPage() {
             See what you qualify for
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
-            <Link href="/" className="font-semibold text-harbor-mid hover:underline">
+            <SafeLink href="/" className="font-semibold text-harbor-mid hover:underline">
               ← Back to Home
-            </Link>
+            </SafeLink>
           </p>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { SafeLink } from "@/components/safe-link";
 import { TopicCard } from "@/components/topic-card";
 import { siteConfig } from "@/lib/site-config";
 
@@ -76,7 +77,7 @@ export default function ManagingYourPolicyPage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <p className="text-sm text-charcoal/50">
-          <Link href="/" className="hover:text-harbor">Home</Link> / Managing Your Policy
+          <SafeLink href="/" className="hover:text-harbor">Home</SafeLink> / Managing Your Policy
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
           Manage an existing policy: fast answers
@@ -114,9 +115,9 @@ export default function ManagingYourPolicyPage() {
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             No policy yet?{" "}
-            <Link href="/get-quote" className="font-semibold text-harbor-mid hover:underline">
+            <SafeLink href="/get-quote" className="font-semibold text-harbor-mid hover:underline">
               See what you qualify for →
-            </Link>
+            </SafeLink>
           </p>
         </div>
       </div>

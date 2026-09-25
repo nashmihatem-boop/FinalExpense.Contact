@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { HorizonMark } from "@/components/horizon-mark";
+import { SafeLink } from "@/components/safe-link";
 import { siteConfig } from "@/lib/site-config";
 
 const ABOUT_LINKS = [
@@ -38,12 +39,12 @@ export function SiteFooter() {
     <footer className="bg-harbor text-canvas/80">
       <div className="mx-auto max-w-6xl px-5 py-12 sm:px-8">
         <div className="flex flex-col gap-4 border-b border-white/10 pb-8 sm:flex-row sm:items-center sm:justify-between">
-          <Link href="/" className="flex items-center gap-2.5">
+          <SafeLink href="/" className="flex items-center gap-2.5">
             <HorizonMark className="h-8 w-8 text-canvas [&_.text-harbor]:text-canvas [&_.text-mist]:text-canvas/40" />
             <span className="font-display text-lg font-extrabold text-canvas">
               FinalExpense.Contact
             </span>
-          </Link>
+          </SafeLink>
           <p className="text-sm text-canvas/60">
             Looking for a quote?{" "}
             <a href={siteConfig.supportPhoneHref} className="font-bold text-brass hover:underline">
@@ -58,9 +59,9 @@ export function SiteFooter() {
             <ul className="mt-4 space-y-2.5 text-sm">
               {ABOUT_LINKS.map((l) => (
                 <li key={l.label}>
-                  <Link href={l.href} className="hover:text-canvas">
+                  <SafeLink href={l.href} className="hover:text-canvas">
                     {l.label}
-                  </Link>
+                  </SafeLink>
                 </li>
               ))}
             </ul>

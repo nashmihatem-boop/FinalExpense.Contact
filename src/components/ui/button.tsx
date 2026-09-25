@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { ButtonHTMLAttributes, ReactNode } from "react";
 import { cn } from "@/lib/cn";
+import { embedsLeadFormsWidget } from "@/lib/leadforms-pages";
 
 const base =
   "inline-flex items-center justify-center gap-2 rounded-full font-sans font-semibold whitespace-nowrap transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 disabled:opacity-50 disabled:pointer-events-none";
@@ -60,7 +61,7 @@ export function Button(props: LinkButtonProps | NativeButtonProps) {
   }
 
   const { href, external } = props;
-  if (external || href.startsWith("tel:") || href.startsWith("mailto:")) {
+  if (external || href.startsWith("tel:") || href.startsWith("mailto:") || embedsLeadFormsWidget(href)) {
     return (
       <a href={href} className={classes}>
         {children}
