@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 export default function GetQuotePage() {
   return (
     <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
-      <div id="leadforms-embd-form">
+      <div id="leadforms-embd-form" className="relative min-h-[420px]">
         <GetQuoteLoadingState />
       </div>
       <Suspense fallback={null}>
