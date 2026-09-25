@@ -6,8 +6,16 @@ import { useEffect, useState } from "react";
 // rather than clearing it first, and on a cold cache (a visitor's first-ever load, before the
 // pixel script itself has been fetched once) that append can take a few real seconds — long
 // enough that the page looks broken/blank with nothing else here. This renders a spinner as
-// the container's only initial child, then watches for the widget's own wrapper to appear and
-// hides itself the moment it does, so a slow first load never reads as an empty page.
+// the container's only initial child, then watches for the widget's own first real field to
+// appear and hides itself the moment it does, so a slow first load never reads as an empty page.
+//
+// Deliberately waits for input[name="zip-code"] (the widget's first real field, same selector
+// already proven against the live widget in get-quote-prefill.tsx) rather than just
+// .leadforms-general-wrapper appearing: the wrapper can mount before the widget has actually
+// fetched and rendered its form config from its own backend (a separate, non-cacheable request),
+// so hiding on the wrapper alone let the widget's own brief internal loading state show through
+// as a second, different-looking spinner between this one disappearing and the real form
+// appearing.
 export function GetQuoteLoadingState() {
   const [widgetLoaded, setWidgetLoaded] = useState(false);
 
@@ -16,7 +24,7 @@ export function GetQuoteLoadingState() {
     if (!container) return;
 
     function checkLoaded() {
-      if (container!.querySelector(".leadforms-general-wrapper")) {
+      if (container!.querySelector('input[name="zip-code"]')) {
         setWidgetLoaded(true);
       }
     }
